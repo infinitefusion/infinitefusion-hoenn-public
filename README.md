@@ -42,7 +42,14 @@ files are structured does not allow to easily see what the changes made are.**
 
 To contribute:
 
-- Fork the game's repo from https://github.com/infinitefusion/infinitefusion-e18
+- Fork the game repo 
+Infinite fusion 1 
+https://github.com/infinitefusion/infinitefusion-e18
+
+Infinite fusion 1 & 2 (Scripts only)
+https://github.com/infinitefusion/scripts
+
+
 - Work from the **develop** branch to avoid merge conflicts 
 - Open a pull request once you're done to merge into **develop**. A pull request should only contain a single feature or bug fix. Any PR that bundles multiple features/fixes will be denied.
 
