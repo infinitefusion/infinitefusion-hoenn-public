@@ -384,6 +384,7 @@
         "price": 1500,
         "contestcondition": "beautiful, cute",
         "pokemontags": "chingling, chimecho",
+        "storelocation": "lilycove",
         "obtainmethodkanto": "Type Expert",
         "obtainmethodhoenn": "Fashion Designer",
         "notes": "should be obtainable with the chiming ribbon hat"
@@ -398,7 +399,7 @@
         "contestcondition": "clever",
         "storelocation": "lavender",
         "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer, Store (City)",
         "notes": "city exclusive outfit"
     },
     {
@@ -1319,6 +1320,7 @@
         "description": "Your favourite red jacket and jeans that you always wear on adventures!",
         "obtainable": "yes",
         "price": 1500,
+        "regiontags": "kanto",
         "obtainmethodkanto": "Other NPC / Quest",
         "obtainmethodhoenn": "Store (Regional Set)",
         "notes": "starting outfit"
@@ -1359,7 +1361,7 @@
         "obtainable": "yes",
         "price": 0,
         "obtainmethodkanto": "Overworld",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodhoenn": "Store (Regional Set)",
         "notes": "nugget bridge recruiter"
     },
     {

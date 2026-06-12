@@ -82,11 +82,12 @@
         "description": "An iconic cap with a stylized green \"L\" on it. It feels a bit nostalgic for some reason.",
         "price": 8000,
         "tags": "hat,cap",
+        "regiontags": "johto",
         "pokemontags": "pikachu",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Fashion Designer, Store (Regional Set)",
+        "obtainmethodhoenn": "Fashion Designer, Store (Regional Set)",
         "notes": "given at league gate",
-        "undefined": "Fashion Designer"
+        "undefined": "Fashion Designer, Store (Regional Set)"
     },
     {
         "author": "coridiant",
@@ -443,7 +444,7 @@
         "pokemontags": "chingling, chimecho",
         "storelocation": "lilycove",
         "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Store (City)",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "Should be sold in the same place as the chiming dress if possible."
     },
     {
@@ -598,6 +599,18 @@
         "obtainmethodhoenn": "Unobtainable"
     },
     {
+        "dateadded": "2026-06-11T04:00:00.000Z",
+        "author": "`The.red.letter & .payapon",
+        "id": "cupofcoffee",
+        "name": "Cup of Coffee",
+        "description": "Someone's discarded coffee! Why are you putting it on your head...?",
+        "price": 0,
+        "tags": "weather-cold, accessory",
+        "contestcondition": "cute",
+        "obtainmethodkanto": "Nesting Pokémon",
+        "obtainmethodhoenn": "Nesting Pokémon"
+    },
+    {
         "author": "lunabups",
         "id": "cutecatears",
         "name": "Cat Ears",
@@ -607,7 +620,7 @@
         "contestcondition": "cute",
         "storelocation": "mauville",
         "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "quest reward for showing some granny npc a meowth as inspo for a knitting project?"
     },
     {
@@ -620,8 +633,8 @@
         "tags": "hairclip",
         "contestcondition": "cute, clever",
         "pokemontags": "umbreon",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "given by cynthia after defeating her? quest given by a cynthia fan?"
     },
     {
@@ -632,8 +645,8 @@
         "price": 3000,
         "tags": "hat,trainer",
         "regiontags": "sinnoh",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "regional set"
     },
     {
@@ -646,8 +659,8 @@
         "tags": "hairclip",
         "contestcondition": "cute",
         "storelocation": "lilycove",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "dateadded": "2026-05-11T04:00:00.000Z",
@@ -672,8 +685,8 @@
         "tags": "hat",
         "contestcondition": "cool",
         "storelocation": "mauville",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer, Nesting Pokémon",
+        "obtainmethodhoenn": "Fashion Designer, Nesting Pokémon"
     },
     {
         "author": "nymphiaribbon._.",
@@ -684,8 +697,8 @@
         "tags": "hat",
         "contestcondition": "beautiful",
         "pokemontags": "diancie",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "ohok3441",
@@ -709,8 +722,8 @@
         "tags": "neckwear",
         "contestcondition": "beautiful",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "holzycookie",
@@ -721,8 +734,8 @@
         "tags": "hat",
         "contestcondition": "cute",
         "pokemontags": "drifloon",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "power plant ow on friday"
     },
     {
@@ -746,8 +759,8 @@
         "price": 0,
         "tags": "nest",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "stay idle in celadon"
     },
     {
@@ -760,8 +773,8 @@
         "contestcondition": "cute",
         "pokemontags": "eevee,",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Store (City), Fashion Designer"
+        "obtainmethodkanto": "Nesting Pokémon",
+        "obtainmethodhoenn": "Nesting Pokémon"
     },
     {
         "author": "mykoloth94",
@@ -785,8 +798,8 @@
         "contestcondition": "cool, tough",
         "pokemontags": "elekid,electabuzz,electivire,",
         "storelocation": "mauville",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Store (City), Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".payapon",
@@ -796,8 +809,8 @@
         "price": 1500,
         "tags": "hat",
         "regiontags": "alola",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Store (City), Fashion Designer"
     },
     {
         "author": ".payapon",
@@ -818,8 +831,8 @@
         "price": 12000,
         "tags": "floating",
         "contestcondition": "cool, beautiful",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)",
         "notes": "sky pillar"
     },
     {
@@ -869,7 +882,7 @@
         "contestcondition": "cool",
         "storelocation": "mauville",
         "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "barthandelus_real",
@@ -880,7 +893,7 @@
         "tags": "hat",
         "contestcondition": "beautiful",
         "obtainmethodkanto": "Overworld",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "found in safari zone"
     },
     {
@@ -892,7 +905,7 @@
         "tags": "hat",
         "contestcondition": "cool, tough",
         "storelocation": "cinnabar",
-        "obtainmethodkanto": "Store (City)",
+        "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Unobtainable",
         "notes": "type trainer"
     },
@@ -904,7 +917,7 @@
         "price": 1500,
         "tags": "hairclip",
         "contestcondition": "cute, cool",
-        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodkanto": "Store (City)",
         "obtainmethodhoenn": "Unobtainable"
     },
     {
@@ -916,7 +929,8 @@
         "tags": "hat,weather-cold",
         "contestcondition": "cool, tough",
         "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Unobtainable",
+        "notes": "gym reward (flannery)"
     },
     {
         "author": "icytos",
@@ -927,8 +941,8 @@
         "tags": "hat,weather-cold",
         "contestcondition": "cute",
         "pokemontags": "flareon,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -940,8 +954,8 @@
         "tags": "accessory",
         "contestcondition": "beautiful, cool",
         "storelocation": "mauville",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "dateadded": "2026-05-11T04:00:00.000Z",
@@ -1011,8 +1025,8 @@
         "tags": "hat",
         "contestcondition": "cool",
         "pokemontags": "shellos_e,gastrodon_e",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "takopus",
@@ -1036,8 +1050,8 @@
         "tags": "hat",
         "contestcondition": "beautiful",
         "storelocation": "lilycove",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -1074,8 +1088,8 @@
         "tags": "hat",
         "contestcondition": "cool, tough",
         "pokemontags": "snorunt,glalie,froslass,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "lunaticmarkers",
@@ -1085,8 +1099,8 @@
         "price": 500,
         "tags": "glasses,default",
         "contestcondition": "clever",
-        "obtainmethodkanto": "Store (All)",
-        "obtainmethodhoenn": "Store (All)",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "default"
     },
     {
@@ -1110,8 +1124,8 @@
         "tags": "headband, accessory",
         "contestcondition": "cute",
         "pokemontags": "gligar,gliscor",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Store (All)",
+        "obtainmethodhoenn": "Store (All)"
     },
     {
         "author": "ohok3441",
@@ -1134,8 +1148,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "galar",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "regional set"
     },
     {
@@ -1147,8 +1161,8 @@
         "tags": "headband,glasses",
         "contestcondition": "cool",
         "storelocation": "cinnabar, fallarbor",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": ".payapon",
@@ -1159,8 +1173,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "johto",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "regional set"
     },
     {
@@ -1185,8 +1199,8 @@
         "tags": "glasses",
         "contestcondition": "clever, cute",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -1249,6 +1263,17 @@
         "contestcondition": "cute",
         "storelocation": "rustboro",
         "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "dateadded": "2026-06-04T04:00:00.000Z",
+        "author": "aplastic",
+        "id": "gulpinbeanie",
+        "name": "Gulpin Beanie",
+        "description": "A beanie inspired by Gulpin!",
+        "contestcondition": "cute",
+        "pokemontags": "gulpin, swalot",
+        "obtainmethodkanto": "Store (City)",
         "obtainmethodhoenn": "Store (City)"
     },
     {
@@ -1261,7 +1286,7 @@
         "contestcondition": "beautiful",
         "pokemontags": "shedinja",
         "obtainmethodkanto": "Fashion Designer, Other NPC / Quest",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "reward for beating the ilex forest shedinja encounter? reward for showing a shedinja to someone?"
     },
     {
@@ -1272,8 +1297,8 @@
         "price": 2000,
         "tags": "hat",
         "regiontags": "kalos",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "dateadded": "2025-10-25T04:00:00.000Z",
@@ -1284,8 +1309,8 @@
         "price": 800,
         "tags": "accessory",
         "contestcondition": "cool, tough",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "vincenzodc90",
@@ -1296,8 +1321,8 @@
         "tags": "mask",
         "contestcondition": "tough",
         "pokemontags": "hawlucha",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "ohok3441",
@@ -1308,8 +1333,8 @@
         "tags": "hat",
         "contestcondition": "tough",
         "pokemontags": "axew,fraxure,haxorus,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -1321,8 +1346,8 @@
         "tags": "headband",
         "contestcondition": "cute",
         "storelocation": "default",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": ".realthree",
@@ -1332,8 +1357,8 @@
         "price": 0,
         "tags": "nest",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": ".realthree",
@@ -1369,7 +1394,7 @@
         "contestcondition": "cool",
         "storelocation": "saffron, mauville",
         "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".realthree",
@@ -1379,8 +1404,9 @@
         "price": 400,
         "tags": "hat",
         "contestcondition": "cool, tough",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "storelocation": "rustboro",
+        "obtainmethodkanto": "Nesting Pokémon",
+        "obtainmethodhoenn": "Nesting Pokémon"
     },
     {
         "author": "blackbosom",
@@ -1390,9 +1416,8 @@
         "price": 1000,
         "tags": "hat,default",
         "contestcondition": "cool",
-        "storelocation": "mauville",
-        "obtainmethodkanto": "Store (All)",
-        "obtainmethodhoenn": "Store (City), Store (All)"
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "blackbosom",
@@ -1402,9 +1427,8 @@
         "price": 1000,
         "tags": "hat,default",
         "contestcondition": "beautiful",
-        "storelocation": "mauville",
-        "obtainmethodkanto": "Store (All)",
-        "obtainmethodhoenn": "Store (City), Store (All)"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "blackbosom",
@@ -1414,9 +1438,9 @@
         "price": 1000,
         "tags": "hat",
         "contestcondition": "beautiful",
-        "storelocation": "celadon",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Unobtainable"
+        "storelocation": "celadon, mauville",
+        "obtainmethodkanto": "Store (All)",
+        "obtainmethodhoenn": "Store (All)"
     },
     {
         "author": "blackbosom",
@@ -1426,9 +1450,9 @@
         "price": 1000,
         "tags": "hat",
         "contestcondition": "beautiful",
-        "storelocation": "celadon",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Unobtainable"
+        "storelocation": "celadon, mauville",
+        "obtainmethodkanto": "Store (All)",
+        "obtainmethodhoenn": "Store (All)"
     },
     {
         "author": "blackbosom",
@@ -1438,9 +1462,9 @@
         "price": 1000,
         "tags": "hat",
         "contestcondition": "beautiful",
-        "storelocation": "celadon",
+        "storelocation": "celadon, mauville",
         "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": ".payapon",
@@ -1451,8 +1475,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "unova",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "regional set"
     },
     {
@@ -1465,8 +1489,8 @@
         "tags": "hat,trainer",
         "contestcondition": "beautiful",
         "regiontags": "unova",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": ".payapon",
@@ -1490,8 +1514,8 @@
         "tags": "hat",
         "contestcondition": "cool, tough",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "gummy.frog",
@@ -1502,8 +1526,8 @@
         "tags": "headband",
         "contestcondition": "cute",
         "storelocation": "goldenrod,mauville",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -1515,7 +1539,7 @@
         "tags": "hat",
         "contestcondition": "clever, cute",
         "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "id": "karateHeadband",
@@ -1524,8 +1548,8 @@
         "price": 6000,
         "tags": "hat",
         "contestcondition": "tough",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "type trainer"
     },
     {
@@ -1548,8 +1572,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "johto",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "regional set"
     },
     {
@@ -1561,8 +1585,8 @@
         "tags": "mask",
         "contestcondition": "cool, tough",
         "pokemontags": "ledian",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "gym reward"
     },
     {
@@ -1574,8 +1598,8 @@
         "price": 800,
         "tags": "hat",
         "contestcondition": "beautiful",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "blackbosom",
@@ -1585,8 +1609,8 @@
         "price": 1500,
         "tags": "hat,weather-warm,default",
         "contestcondition": "beautiful, cute",
-        "obtainmethodkanto": "Store (All)",
-        "obtainmethodhoenn": "Store (All)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -1609,8 +1633,8 @@
         "price": 400,
         "tags": "hat,trainer",
         "regiontags": "kanto",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Store (All)",
+        "obtainmethodhoenn": "Store (All)",
         "notes": "start"
     },
     {
@@ -1647,8 +1671,8 @@
         "price": 2000,
         "tags": "hat",
         "regiontags": "sinnoh",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "regional set"
     },
     {
@@ -1660,8 +1684,8 @@
         "tags": "hat,weather-warm",
         "contestcondition": "cool",
         "pokemontags": "lotad,lombre,ludicolo,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "coridant",
@@ -1671,8 +1695,8 @@
         "price": 18000,
         "tags": "hairclip",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)",
         "notes": "gym reward"
     },
     {
@@ -1696,8 +1720,8 @@
         "tags": "hat",
         "contestcondition": "cool",
         "pokemontags": "rockruff,lycanroc_d,lycanroc_n,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".payapon",
@@ -1708,8 +1732,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "johto",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "regional set"
     },
     {
@@ -1744,8 +1768,8 @@
         "price": 20000,
         "tags": "hat",
         "regiontags": "hoenn",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "malxire",
@@ -1756,8 +1780,8 @@
         "tags": "hairclip",
         "contestcondition": "cool, clever",
         "pokemontags": "magnemite,magneton,magnezone,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)",
         "notes": "gym reward"
     },
     {
@@ -1770,7 +1794,7 @@
         "tags": "hat",
         "contestcondition": "beautiful, cute",
         "obtainmethodkanto": "Overworld",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "shocktopus1717",
@@ -1792,8 +1816,8 @@
         "price": 2000,
         "tags": "hairclip, headband,trainer",
         "regiontags": "hoenn",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "regional set"
     },
     {
@@ -1804,8 +1828,8 @@
         "price": 2000,
         "tags": "hairclip, headband,trainer",
         "regiontags": "hoenn",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "regional set"
     },
     {
@@ -1830,8 +1854,8 @@
         "tags": "glasses",
         "contestcondition": "beautiful",
         "pokemontags": "meowth,persian,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "blackbosom",
@@ -1842,7 +1866,7 @@
         "tags": "hairclip,trainer,special",
         "contestcondition": "cute",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodhoenn": "Store (Regional Set)",
         "notes": "type trainer"
     },
     {
@@ -1855,8 +1879,8 @@
         "tags": "glasses",
         "contestcondition": "beautiful, clever",
         "storelocation": "lilycove",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "matpal6",
@@ -1867,8 +1891,8 @@
         "tags": "headband,trainer",
         "contestcondition": "cool",
         "regiontags": "johto",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "gym reward"
     },
     {
@@ -1880,8 +1904,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "unova",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "regional set"
     },
     {
@@ -1919,8 +1943,8 @@
         "contestcondition": "beautiful, clever",
         "regiontags": "alola",
         "pokemontags": "alolan_vulpix,alolan_ninetales,",
-        "obtainmethodkanto": "Fashion Designer, Store (Regional Set)",
-        "obtainmethodhoenn": "Fashion Designer, Store (Regional Set)"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "mystora",
@@ -1931,8 +1955,8 @@
         "tags": "hat",
         "contestcondition": "cute, cool",
         "pokemontags": "noibat,noivern",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "gummy.frog",
@@ -1943,8 +1967,8 @@
         "tags": "hat",
         "contestcondition": "cute, clever",
         "pokemontags": "happiny,chansey,blissey",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Fashion Designer, Store (Regional Set)",
+        "obtainmethodhoenn": "Fashion Designer, Store (Regional Set)",
         "notes": "quest in a broken down pokecenter, gotta help heal up a bunch of mons that are in critical condition (give potions etc to npc mons)? "
     },
     {
@@ -1979,8 +2003,8 @@
         "price": 10000,
         "tags": "mask",
         "contestcondition": "beautiful",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "Goldenrod tunnel exclusive"
     },
     {
@@ -1991,8 +2015,8 @@
         "price": 10000,
         "tags": "mask",
         "contestcondition": "clever",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "Goldenrod tunnel exclusive"
     },
     {
@@ -2028,8 +2052,8 @@
         "tags": "hat",
         "contestcondition": "cool",
         "pokemontags": "omanyte,omastar",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "theheroicorange",
@@ -2063,8 +2087,8 @@
         "price": 4000,
         "tags": "hat",
         "regiontags": "kalos",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "mykoloth94",
@@ -2075,8 +2099,8 @@
         "tags": "nest",
         "contestcondition": "cute",
         "pokemontags": "pidgey",
-        "obtainmethodkanto": "Fashion Designer, Nesting Pokémon",
-        "obtainmethodhoenn": "Fashion Designer, Nesting Pokémon",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "Stay idle on route 1"
     },
     {
@@ -2088,8 +2112,8 @@
         "tags": "hat,default",
         "contestcondition": "cute",
         "pokemontags": "pikachu",
-        "obtainmethodkanto": "Fashion Designer, Store (All)",
-        "obtainmethodhoenn": "Fashion Designer, Store (All)"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "djoing",
@@ -2100,8 +2124,8 @@
         "tags": "hat",
         "contestcondition": "cute",
         "pokemontags": "pikachu",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Fashion Designer, Nesting Pokémon",
+        "obtainmethodhoenn": "Fashion Designer, Nesting Pokémon",
         "notes": "bill lighthouse"
     },
     {
@@ -2112,8 +2136,8 @@
         "price": 0,
         "tags": "nest",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon",
+        "obtainmethodkanto": "Fashion Designer, Store (All)",
+        "obtainmethodhoenn": "Fashion Designer, Store (All)",
         "notes": "stay idle in viridian forest"
     },
     {
@@ -2124,8 +2148,8 @@
         "price": 0,
         "tags": "nest",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "stay idle in viridian forest"
     },
     {
@@ -2137,8 +2161,8 @@
         "price": 300,
         "tags": "hairclip",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Nesting Pokémon",
+        "obtainmethodhoenn": "Nesting Pokémon"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -2149,7 +2173,7 @@
         "price": 2000,
         "tags": "hat",
         "contestcondition": "cool, tough",
-        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodkanto": "Nesting Pokémon",
         "obtainmethodhoenn": "Overworld"
     },
     {
@@ -2173,8 +2197,8 @@
         "contestcondition": "cool",
         "pokemontags": "ekans,arbok",
         "storelocation": "fuchsia",
-        "obtainmethodkanto": "Store (City), Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "malxire",
@@ -2186,8 +2210,8 @@
         "contestcondition": "cool",
         "pokemontags": "ekans,arbok",
         "storelocation": "fuchsia",
-        "obtainmethodkanto": "Store (City), Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".realthree",
@@ -2198,7 +2222,7 @@
         "tags": "hat,special",
         "contestcondition": "tough",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": ".payapon",
@@ -2208,8 +2232,8 @@
         "price": 8000,
         "tags": "hat",
         "contestcondition": "clever",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodkanto": "Store (City), Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "TR celadon quest"
     },
     {
@@ -2222,8 +2246,8 @@
         "tags": "hat",
         "contestcondition": "cool",
         "pokemontags": "piplup,prinplup,empoleon,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".realthree",
@@ -2258,8 +2282,8 @@
         "tags": "hat",
         "contestcondition": "cute",
         "pokemontags": "pumpkaboo,gourgeist,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "gummy.frog",
@@ -2269,8 +2293,8 @@
         "price": 1000,
         "tags": "glasses, accessory, default",
         "contestcondition": "clever",
-        "obtainmethodkanto": "Store (All)",
-        "obtainmethodhoenn": "Store (All)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "xenophacilus",
@@ -2281,8 +2305,8 @@
         "tags": "hat",
         "contestcondition": "clever",
         "regiontags": "kalos",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": ".payapon",
@@ -2305,8 +2329,8 @@
         "tags": "headband",
         "contestcondition": "beautiful",
         "pokemontags": "rayquaza",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "kiwikelly",
@@ -2316,8 +2340,8 @@
         "price": 400,
         "tags": "hat",
         "regiontags": "kanto",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Store (All)",
+        "obtainmethodhoenn": "Store (All)",
         "notes": "start"
     },
     {
@@ -2330,8 +2354,8 @@
         "tags": "hairclip",
         "contestcondition": "cute",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -2343,8 +2367,8 @@
         "tags": "accessory",
         "contestcondition": "beautiful",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "monolithyk",
@@ -2355,8 +2379,8 @@
         "tags": "mask",
         "contestcondition": "tough",
         "pokemontags": "registeel",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": ".payapon ",
@@ -2368,8 +2392,8 @@
         "tags": "hat,trainer",
         "contestcondition": "cool",
         "regiontags": "sinnoh",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "kingeroya",
@@ -2379,7 +2403,7 @@
         "price": 10000,
         "tags": "hat,trainer,special",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "nugget bridge recruiter"
     },
     {
@@ -2404,8 +2428,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "unova",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -2416,8 +2440,8 @@
         "price": 300,
         "tags": "accessory",
         "contestcondition": "beautiful",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "xenophacilus",
@@ -2429,8 +2453,8 @@
         "contestcondition": "beautiful",
         "pokemontags": "budew,roselia,roserade",
         "storelocation": "celadon,",
-        "obtainmethodkanto": "Store (City), Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "xenophacilus",
@@ -2442,8 +2466,8 @@
         "contestcondition": "beautiful",
         "pokemontags": "budew,roselia,roserade",
         "storelocation": "celadon,",
-        "obtainmethodkanto": "Store (City), Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -2454,8 +2478,8 @@
         "price": 100,
         "tags": "hairclip",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Store (City), Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "weaselsheep",
@@ -2466,7 +2490,7 @@
         "tags": "mask",
         "contestcondition": "cool, tough",
         "pokemontags": "sableye",
-        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodkanto": "Store (City), Fashion Designer",
         "obtainmethodhoenn": "Fashion Designer"
     },
     {
@@ -2514,7 +2538,7 @@
         "tags": "special,mask",
         "contestcondition": "cute",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": ".payapon",
@@ -2525,7 +2549,7 @@
         "tags": "special,mask",
         "contestcondition": "cute",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": ".payapon",
@@ -2571,8 +2595,8 @@
         "tags": "hat",
         "contestcondition": "tough",
         "pokemontags": "seedot,nuzleaf,shiftry,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".payapon",
@@ -2582,8 +2606,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "alola",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "trainer clothing store?"
     },
     {
@@ -2595,8 +2619,8 @@
         "price": 2000,
         "tags": "hat, weather-warm",
         "regiontags": "alola",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": ".payapon",
@@ -2619,8 +2643,8 @@
         "price": 300,
         "tags": "cap, hat",
         "contestcondition": "clever, cute",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": ".payapon",
@@ -2631,7 +2655,7 @@
         "tags": "headband,special",
         "contestcondition": "clever",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": ".payapon",
@@ -2642,8 +2666,8 @@
         "price": 500,
         "tags": "headband,default",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Store (All)",
-        "obtainmethodhoenn": "Store (All)"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".payapon",
@@ -2655,7 +2679,7 @@
         "tags": "hat,weather-cold",
         "contestcondition": "cool",
         "storelocation": "blackthorn,mahogany,",
-        "obtainmethodkanto": "Store (City)",
+        "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Unobtainable"
     },
     {
@@ -2667,7 +2691,7 @@
         "tags": "hat",
         "contestcondition": "clever",
         "obtainmethodkanto": "Overworld",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodhoenn": "Store (All)",
         "notes": "goldenrod radio tower"
     },
     {
@@ -2679,8 +2703,8 @@
         "tags": "mask",
         "contestcondition": "cute",
         "pokemontags": "mareep, flaafy, ampharos",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "Sleep at hotel"
     },
     {
@@ -2692,8 +2716,8 @@
         "tags": "hat",
         "contestcondition": "tough",
         "pokemontags": "slowbro,slowking,shellder",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "the.red.letter",
@@ -2704,8 +2728,8 @@
         "tags": "special, accessory, nest",
         "contestcondition": "cool, tough",
         "pokemontags": "grimer, muk",
-        "obtainmethodkanto": "Fashion Designer, Nesting Pokémon",
-        "obtainmethodhoenn": "Fashion Designer, Nesting Pokémon",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "obtained by having the player investigate a sewer pipe or a similar grimy place and pop back out with sludge atop their head!"
     },
     {
@@ -2729,8 +2753,8 @@
         "price": 400,
         "tags": "hairclip",
         "contestcondition": "cute, beautiful",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Fashion Designer, Nesting Pokémon",
+        "obtainmethodhoenn": "Fashion Designer, Nesting Pokémon"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -2742,8 +2766,8 @@
         "tags": "mask",
         "contestcondition": "cool, clever",
         "storelocation": "mauville",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "ohok3441",
@@ -2754,8 +2778,8 @@
         "tags": "hairclip, weather-cold",
         "contestcondition": "cool",
         "pokemontags": "sneasel,weavile,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "sakebishi",
@@ -2766,8 +2790,8 @@
         "tags": "hat",
         "contestcondition": "cute",
         "pokemontags": "munchlax,snorlax,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "kiwikelly",
@@ -2791,8 +2815,8 @@
         "tags": "hairclip",
         "contestcondition": "beautiful",
         "storelocation": "mossdeep",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "duskrd",
@@ -2813,8 +2837,8 @@
         "price": 0,
         "tags": "nest",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": ".rayzard",
@@ -2837,8 +2861,8 @@
         "tags": "hat",
         "contestcondition": "clever",
         "pokemontags": "fused,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Nesting Pokémon",
+        "obtainmethodhoenn": "Nesting Pokémon"
     },
     {
         "author": "gummy.frog",
@@ -2848,7 +2872,7 @@
         "price": 800,
         "tags": "hat,special",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodkanto": "Fashion Designer",
         "obtainmethodhoenn": "Overworld"
     },
     {
@@ -2861,8 +2885,8 @@
         "tags": "glasses",
         "contestcondition": "cool, beautiful",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "knilk",
@@ -2873,8 +2897,8 @@
         "tags": "glasses",
         "contestcondition": "cool",
         "pokemontags": "squirtle,wartortle,blastoise,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "found at cerulean cape"
     },
     {
@@ -2886,8 +2910,8 @@
         "tags": "hairclip",
         "contestcondition": "beautiful",
         "pokemontags": "staryu,starmie",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "gym reward"
     },
     {
@@ -2900,8 +2924,8 @@
         "tags": "neckwear",
         "contestcondition": "beautiful",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "ohok3441",
@@ -2925,7 +2949,7 @@
         "tags": "glasses",
         "contestcondition": "cool",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "gym reward"
     },
     {
@@ -2936,8 +2960,8 @@
         "price": 0,
         "tags": "nest",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "stay idle on mt. moon summit"
     },
     {
@@ -2949,8 +2973,8 @@
         "tags": "hairclip",
         "contestcondition": "cute",
         "pokemontags": "sylveon",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".payapon",
@@ -2961,8 +2985,8 @@
         "tags": "hat,special",
         "contestcondition": "cool",
         "pokemontags": "tentacruel, tentacool",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Nesting Pokémon",
+        "obtainmethodhoenn": "Nesting Pokémon"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -2973,8 +2997,8 @@
         "price": 1200,
         "tags": "headband",
         "contestcondition": "beautiful",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -2986,8 +3010,8 @@
         "tags": "neckwear",
         "contestcondition": "beautiful",
         "storelocation": "default",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "matpal6",
@@ -3008,7 +3032,7 @@
         "price": 10000,
         "tags": "hat",
         "contestcondition": "beautiful",
-        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodkanto": "Store (City)",
         "obtainmethodhoenn": "Unobtainable"
     },
     {
@@ -3020,8 +3044,8 @@
         "tags": "hat",
         "contestcondition": "beautiful",
         "pokemontags": "phantump,trevenant,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "Ilex forest at night"
     },
     {
@@ -3033,8 +3057,8 @@
         "tags": "glasses",
         "contestcondition": "cool",
         "storelocation": "violet, mauville",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": ".payapon",
@@ -3057,7 +3081,7 @@
         "tags": "hat",
         "contestcondition": "cool, clever",
         "obtainmethodkanto": "Overworld",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "chromaerym",
@@ -3068,8 +3092,8 @@
         "tags": "mask",
         "contestcondition": "tough",
         "pokemontags": "tyrunt,tyrantrum,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "Obtained from Rock Smash"
     },
     {
@@ -3081,7 +3105,7 @@
         "tags": "hat,trainer",
         "contestcondition": "cool",
         "storelocation": "crimson,",
-        "obtainmethodkanto": "Store (City)",
+        "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Unobtainable"
     },
     {
@@ -3093,8 +3117,8 @@
         "price": 2000,
         "tags": "hat,trainer",
         "regiontags": "galar",
-        "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (Regional Set)",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "trainer clothing store?"
     },
     {
@@ -3106,8 +3130,8 @@
         "tags": "hairclip",
         "contestcondition": "cool",
         "pokemontags": "voltorb,electrode,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "ohok3441",
@@ -3120,7 +3144,7 @@
         "regiontags": "hoenn",
         "storelocation": "sootopolis",
         "obtainmethodkanto": "Store (Regional Set)",
-        "obtainmethodhoenn": "Store (City), Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)",
         "notes": "Wallace victory item"
     },
     {
@@ -3132,8 +3156,8 @@
         "tags": "hat",
         "contestcondition": "cute",
         "storelocation": "pewter,rustboro",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Store (City)",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "trainer clothing store?"
     },
     {
@@ -3145,8 +3169,8 @@
         "tags": "hat",
         "contestcondition": "tough",
         "storelocation": "fuchsia",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (City), Store (Regional Set)"
     },
     {
         "author": "chromaerym",
@@ -3158,8 +3182,8 @@
         "contestcondition": "beautiful",
         "pokemontags": "barboach,whiscash,",
         "storelocation": "fallarbor,",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Store (City), Fashion Designer"
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -3170,7 +3194,7 @@
         "price": 900,
         "tags": "mask",
         "contestcondition": "beautiful, cool",
-        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodkanto": "Store (City)",
         "obtainmethodhoenn": "Unobtainable"
     },
     {
@@ -3182,7 +3206,7 @@
         "tags": "special",
         "contestcondition": "clever",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Store (City), Fashion Designer"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -3195,7 +3219,7 @@
         "contestcondition": "clever",
         "storelocation": "mauville",
         "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Store (City)"
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "malxire",
@@ -3206,7 +3230,8 @@
         "tags": "hat",
         "contestcondition": "cool, beautiful",
         "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Other NPC / Quest"
+        "obtainmethodhoenn": "Other NPC / Quest",
+        "notes": "gym reward (winona)"
     },
     {
         "dateadded": "2025-10-27T04:00:00.000Z",
@@ -3216,7 +3241,6 @@
         "description": "It's a quirky hat. It's commonly used in Pokémon Contests.",
         "price": 1100,
         "tags": "hat",
-        "contestcondition": "clever, beautiful",
         "storelocation": "lilycove",
         "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Store (City)"
@@ -3230,8 +3254,8 @@
         "tags": "hairclip",
         "contestcondition": "cute",
         "pokemontags": "wooper, quagsire",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "quest cerulean"
     },
     {
@@ -3243,7 +3267,7 @@
         "tags": "hat,trainer",
         "contestcondition": "beautiful",
         "storelocation": "pewter,rustboro",
-        "obtainmethodkanto": "Store (City)",
+        "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Store (City)",
         "notes": "trainer clothing store?"
     },
@@ -3256,8 +3280,8 @@
         "tags": "hat",
         "contestcondition": "cool",
         "storelocation": "pewter,rustboro",
-        "obtainmethodkanto": "Store (City)",
-        "obtainmethodhoenn": "Store (City)",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer",
         "notes": "city exclusive"
     },
     {
@@ -3268,20 +3292,13 @@
         "price": 0,
         "tags": "nest",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon"
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
-    },
-    {
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
-    },
-    {
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Unobtainable",
+        "notes": "Found in the cafe after dark. Would also be funny to have it under cold-weather gear since its a hot drink"
     },
     {
         "obtainmethodhoenn": "Unobtainable"
