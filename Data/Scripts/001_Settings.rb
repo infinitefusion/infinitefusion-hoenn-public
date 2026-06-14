@@ -8,8 +8,8 @@ module Settings
   GAME_VERSION_NUMBER = "6.8.0"
   LATEST_GAME_RELEASE = "6.6"
 
-  HOENN_VERSION_NUMBER = "1.0.0"
-  HOENN_LATEST_GAME_RELEASE = "1.0.1"
+  HOENN_VERSION_NUMBER = "1.0.2"
+  HOENN_LATEST_GAME_RELEASE = "1.0.2"
 
   SNOW_DAY = false
 
@@ -36,7 +36,7 @@ module Settings
   ANIMATE_REFLECTIONS = false # GAME_ID == :IF_HOENN #true
   USE_REFLECTIONS = false
   # Infinite fusion settings
-  NB_POKEMON = 501#572
+  NB_POKEMON = 576
   TRANSFER_BOX_DISCLAIMER_MESSAGE = ""
   CUSTOM_BASE_SPRITES_FOLDER = "Graphics/CustomBattlers/local_sprites/BaseSprites/"
   CUSTOM_BATTLERS_FOLDER = "Graphics/CustomBattlers/"

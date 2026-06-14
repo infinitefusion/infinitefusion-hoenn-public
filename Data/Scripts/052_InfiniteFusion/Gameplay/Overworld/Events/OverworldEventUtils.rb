@@ -278,7 +278,9 @@ def sit_on_chair
       $game_player.direction_fix = false
     else
       passable = $game_map.passable?($game_player.x, $game_player.y, direction)
-      if passable
+      dest_x = $game_player.x + (direction == 6 ? 1 : direction == 4 ? -1 : 0)
+      dest_y = $game_player.y + (direction == 2 ? 1 : direction == 8 ? -1 : 0)
+      if passable && !$game_map.event_at_position(dest_x, dest_y)
         $game_player.turn_generic(direction)
         $game_player.jump_forward
         break
@@ -346,7 +348,10 @@ def spawn_near(species, level, group_size)
   spawn_random_overworld_pokemon_group([species, level], 1, group_size)
 end
 
-def clefairy_minigame(length = 4)
+def clefairy_minigame(length = 4, clefairy_event_id = nil)
+  if clefairy_event_id
+    event = $game_map.events[clefairy_event_id]
+  end
   possible_elements = ["Left!", "Up!", "Right!", "Down!"]
   pbMessage("Listen up and remember this!")
   sequence = []
@@ -393,11 +398,17 @@ def clefairy_minigame(length = 4)
   pbWait(10)
   if player_input == sequence
     pbSEPlay("GUI naming confirm", 80, 100)
-    pbMessage("Correct!")
+    pbMEPlay("clefairy_correct",100)
+    pbMessage("Correct!\\wtnp[40]")
+
+    12.times do
+      event.turn_left_90 if event
+      pbWait(20)
+    end
     return true
   else
     pbSEPlay("GUI sel buzzer", 80, 100)
-    pbMessage("Incorrect!")
+    pbMessage("Incorrect!\\wtnp[40]")
     return false
   end
 end
