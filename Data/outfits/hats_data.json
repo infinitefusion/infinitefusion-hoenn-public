@@ -82,7 +82,7 @@
         "description": "An iconic cap with a stylized green \"L\" on it. It feels a bit nostalgic for some reason.",
         "price": 8000,
         "tags": "hat,cap",
-        "regiontags": "johto",
+        "regiontags": "kanto",
         "pokemontags": "pikachu",
         "obtainmethodkanto": "Fashion Designer, Store (Regional Set)",
         "obtainmethodhoenn": "Fashion Designer, Store (Regional Set)",
@@ -607,8 +607,8 @@
         "price": 0,
         "tags": "weather-cold, accessory",
         "contestcondition": "cute",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Overworld"
     },
     {
         "author": "lunabups",
@@ -1885,7 +1885,7 @@
     {
         "author": "matpal6",
         "id": "mortyHeadband",
-        "name": "Purple Headband",
+        "name": "Ghostly Headband",
         "description": "A purple headband with a spooky, ominous aura.",
         "price": 18000,
         "tags": "headband,trainer",
