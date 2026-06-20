@@ -1,0 +1,55 @@
+#GRAPHICS
+# 1. Allow Git to enter the parent folders
+!Graphics/
+!Graphics/CustomBattlers/
+!Graphics/CustomBattlers/local_sprites/
+!Graphics/CustomBattlers/spritesheets/
+!Graphics/CustomBattlers/spritesheets/spritesheets_base/
+!Graphics/CustomBattlers/spritesheets/spritesheets_custom/
+
+# 2. IGNORED: Everything inside these folders
+Graphics/CustomBattlers/spritesheets/spritesheets_base/*
+Graphics/CustomBattlers/spritesheets/spritesheets_custom/*
+Graphics/CustomBattlers/local_sprites/BaseSprites/*
+Graphics/CustomBattlers/local_sprites/indexed/*
+Graphics/CustomBattlers/Sprites to import/*
+Graphics/Pokemon/FusionIcons/*
+Graphics/Battlers/Shiny/*
+
+# 3. Explicitly allow the .gitkeep files back in
+!Graphics/CustomBattlers/spritesheets/spritesheets_base/.gitkeep
+!Graphics/CustomBattlers/spritesheets/spritesheets_custom/.gitkeep
+!Graphics/CustomBattlers/local_sprites/BaseSprites/.gitkeep
+!Graphics/CustomBattlers/local_sprites/indexed/.gitkeep
+!Graphics/CustomBattlers/Sprites to import/.gitkeep
+!Graphics/Pokemon/FusionIcons/.gitkeep
+!Graphics/Battlers/Shiny/.gitkeep
+
+#Downloaded files
+Data/Scripts/DownloadedSettings.rb
+Data/pokedex/dex.json
+Data/sprites/*
+Data/bases/*
+
+#THE REST
+Data/VERSION
+infinitefusion.sh
+
+Data/sprites/updated_spritesheets_cache
+Data/sprites/sprites_rate_limit.log
+
+.DS_Store
+**/.DS_Store
+
+Game.rxproj
+Game.exe
+rpgmaker.sh
+Dev/*
+
+
+# Generated release zips and staging folders
+InfiniteFusion_*.zip
+InfiniteFusion_Release_*/
+Releases/
+InfiniteFusion_Release_*/
+*.zip
