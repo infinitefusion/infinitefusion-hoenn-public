@@ -142,27 +142,52 @@ def get_other_starter
   end
 end
 
-# Rival catches a Pokemon the same type as the player's starter and fuses it with their starter
+
 def updateRivalTeamForSecondBattle()
 
   rival_trainer = $PokemonGlobal.battledTrainers[BATTLED_TRAINER_RIVAL_KEY]
   rival_starter = rival_trainer.currentTeam[0]
   rival_starter_species = rival_starter.species
 
+  echoln rival_starter_species
   player_chosen_starter_index = pbGet(VAR_HOENN_CHOSEN_STARTER_INDEX)
+  team = []
+
+  fused_starter= false
+  if isSpeciesFusion(rival_starter_species)
+    fused_starter = true
+    starter_species = rival_starter_species
+  end
+
   case player_chosen_starter_index
   when 0 # GRASS
-    pokemon_species = getFusionSpeciesSymbol(:LOTAD, rival_starter_species) if isPlayerFemale()
-    pokemon_species = getFusionSpeciesSymbol(rival_starter_species, :SHROOMISH) if isPlayerMale()
+    if isPlayerFemale()
+      other_pokemon_species = :WINGULL
+      starter_species = getFusionSpeciesSymbol(:LOTAD, rival_starter_species) unless fused_starter #lotad/torchic
+    else
+      other_pokemon_species = :WAILMER
+      starter_species = getFusionSpeciesSymbol(rival_starter_species, :SHROOMISH) unless fused_starter #torchic/shroomish
+    end
   when 1 # FIRE
-    pokemon_species = getFusionSpeciesSymbol(:SLUGMA, rival_starter_species) if isPlayerFemale()
-    pokemon_species = getFusionSpeciesSymbol(rival_starter_species, :NUMEL) if isPlayerMale()
+    if isPlayerFemale()
+      other_pokemon_species = :LOTAD
+      starter_species = getFusionSpeciesSymbol(:SLUGMA, rival_starter_species) unless fused_starter  #Slugma/Mudkip
+    else
+      other_pokemon_species = :SHROOMISH
+      starter_species = getFusionSpeciesSymbol(rival_starter_species, :NUMEL) unless fused_starter  #Mudkip/Numel
+    end
+
   when 2 # WATER
-    pokemon_species = getFusionSpeciesSymbol(rival_starter_species, :WINGULL) if isPlayerFemale()
-    pokemon_species = getFusionSpeciesSymbol(:WAILMER, rival_starter_species) if isPlayerMale()
+    if isPlayerFemale()
+      other_pokemon_species = :NUMEL
+      starter_species = getFusionSpeciesSymbol(rival_starter_species, :WINGULL) unless fused_starter #treecko/wingull
+    else
+      other_pokemon_species = :SLUGMA
+      starter_species = getFusionSpeciesSymbol(:WAILMER, rival_starter_species) unless fused_starter #+wailmer/treecko
+    end
   end
-  team = []
-  team << Pokemon.new(pokemon_species, 15, rival_trainer.trainerName)
+  team << Pokemon.new(other_pokemon_species, 12, rival_trainer.trainerName)
+  team << Pokemon.new(starter_species, 15, rival_trainer.trainerName)
 
   rival_trainer.currentTeam = team
   $PokemonGlobal.battledTrainers[BATTLED_TRAINER_RIVAL_KEY] = rival_trainer
@@ -178,6 +203,7 @@ end
 def updateRivalTeamForThirdBattle()
   updateRivalTeamForSecondBattle unless $game_switches[SWITCH_RIVAL_BATTLE_2]
   rival_trainer = $PokemonGlobal.battledTrainers[BATTLED_TRAINER_RIVAL_KEY]
+  rival_trainer.friendship_level = 2
   rival_starter = rival_trainer.currentTeam[0]
   starter_species = rival_starter.species
 
@@ -241,9 +267,9 @@ def updateRivalTeamForThirdBattle()
 
   team = []
 
-  team << Pokemon.new(other_pokemon[0], 19, rival_trainer.trainerName)
-  team << Pokemon.new(other_pokemon[1], 20, rival_trainer.trainerName)
-  team << Pokemon.new(contains_starter[0], 22, rival_trainer.trainerName)
+  team << Pokemon.new(other_pokemon[0], 22, rival_trainer.trainerName)
+  team << Pokemon.new(other_pokemon[1], 22, rival_trainer.trainerName)
+  team << Pokemon.new(contains_starter[0], 24, rival_trainer.trainerName)
 
   rival_trainer.currentTeam = team
 
@@ -276,6 +302,7 @@ def initializeRivalBattledTrainer
   trainer_appearance = $Trainer.rival_appearance
   rivalBattledTrainer = BattledTrainer.new(trainer_type, trainer_name, 0, BATTLED_TRAINER_RIVAL_KEY)
   rivalBattledTrainer.set_custom_appearance(trainer_appearance)
+  rivalBattledTrainer.friendship_level = 1
   team = []
   team << Pokemon.new(get_hoenn_rival_starter, 5, trainer_name)
   rivalBattledTrainer.currentTeam = team

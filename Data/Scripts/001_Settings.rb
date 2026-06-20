@@ -8,8 +8,8 @@ module Settings
   GAME_VERSION_NUMBER = "6.8.0"
   LATEST_GAME_RELEASE = "6.6"
 
-  HOENN_VERSION_NUMBER = "1.0.4"
-  HOENN_LATEST_GAME_RELEASE = "1.0.4"
+  HOENN_VERSION_NUMBER = "1.0.5"
+  HOENN_LATEST_GAME_RELEASE = "1.0.5"
 
   SNOW_DAY = false
 
@@ -87,6 +87,8 @@ module Settings
   SECRETBASE_DOWNLOAD_URL = "https://secretbase-download.pkmninfinitefusion.workers.dev"
 
   STARTUP_MESSAGES = ""
+  STARTUP_MESSAGES_KANTO = ""
+  STARTUP_MESSAGES_HOENN = ""
 
   LEVEL_CAPS_KANTO = [12, 22, 26, 35, 38, 45, 51, 54, 62, 62, 63, 64, 64, 65, 67, 68]
   LEVEL_CAPS_HOENN = [15, 19, 26, 99, 99, 99, 99, 99]
@@ -111,6 +113,7 @@ module Settings
 
   DISCORD_URL = "https://discord.com/invite/infinitefusion"
   WIKI_URL = "https://infinitefusion.fandom.com/"
+  FAQ_URL = "https://hackmd.io/@PIF-Staff/PIF-Hoenn-FAQ"
 
   AI_ENTRIES_URL = "https://ai-entries.pkmninfinitefusion.workers.dev/"
   AI_ENTRIES_RATE_MAX_NB_REQUESTS = 10 # Nb. requests allowed in each time window
@@ -575,11 +578,18 @@ module Settings
   # An array of available languages in the game, and their corresponding message
   # file in the Data folder. Edit only if you have 2 or more languages to choose
   # from.
-  LANGUAGES = [
-    ["English", "english.dat"],
-    ["Français", "french.dat"],
-    ["中文", "chinese.dat"]
-  ]
+  LANGUAGES = {
+    :IF_KANTO => [
+      ["English", "english.dat"],
+      ["Français", "french.dat"],
+    ],
+    :IF_HOENN => [
+      ["English", "english.dat"],
+      # ["Français", "french.dat"],
+      #["Español", "spanish.dat"],
+      #["中文", "chinese.dat"]
+    ]
+  }
 
   # Experimental
   REMOTE_BATTLES_CONTROL = false

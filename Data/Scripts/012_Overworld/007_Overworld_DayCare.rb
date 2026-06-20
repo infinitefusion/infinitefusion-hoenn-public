@@ -177,16 +177,16 @@ def determineDayCareEggSpecies(maleParent, femaleParent)
   female_species = male_species if female_species.species == :DITTO && male_species.species != :DITTO
 
   maleParentSpecies = []
-  if maleParent.isFusion?
-    maleParentSpecies << male_species.body_pokemon
-    maleParentSpecies << male_species.head_pokemon
+  if maleParent.isFusion? || (maleParent.species == :DITTO && femaleParent.isFusion?)
+    maleParentSpecies << male_species.body_pokemon.species
+    maleParentSpecies << male_species.head_pokemon.species
   else
     maleParentSpecies << male_species.species
   end
 
   femaleParentSpecies = []
 
-  if femaleParent.isFusion?
+  if femaleParent.isFusion? || (femaleParent.species == :DITTO && maleParent.isFusion?)
     femaleParentSpecies << female_species.body_pokemon.species
     femaleParentSpecies << female_species.head_pokemon.species
   else

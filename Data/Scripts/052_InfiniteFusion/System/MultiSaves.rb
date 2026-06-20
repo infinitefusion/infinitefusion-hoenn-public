@@ -446,9 +446,13 @@ class PokemonLoadScreen
       pbMessage(_INTL("Version {1} is now available! Please use the game's installer to download the newest version. Check the Discord for more information.", newer_version))
     end
 
-    if Settings::STARTUP_MESSAGES != ""
-      pbMessage(_INTL(Settings::STARTUP_MESSAGES))
+    if Settings::STARTUP_MESSAGES_KANTO != "" && Settings::KANTO
+      pbMessage(_INTL(Settings::STARTUP_MESSAGES_KANTO))
     end
+    if Settings::STARTUP_MESSAGES_HOENN != "" && Settings::HOENN
+      pbMessage(_INTL(Settings::STARTUP_MESSAGES_HOENN))
+    end
+
     if ($game_temp.unimportedSprites && $game_temp.unimportedSprites.size > 0)
       handleReplaceExistingSprites()
     end
@@ -483,17 +487,16 @@ class PokemonLoadScreen
       if show_continue
         commands[cmd_continue = commands.length] = "#{@selected_file}"
         #if @save_data[:player].mystery_gift_unlocked
-        commands[cmd_mystery_gift = commands.length] = _INTL('Mystery Gift') # Honestly I have no idea how to make Mystery Gift work well with this.
+        commands[cmd_mystery_gift = commands.length] = _INTL("Mystery Gift") # Honestly I have no idea how to make Mystery Gift work well with this.
         #end
       end
 
-      commands[cmd_new_game = commands.length] = _INTL('New Game')
+      commands[cmd_new_game = commands.length] = _INTL("New Game")
       if new_game_plus
-        commands[cmd_new_game_plus = commands.length] = _INTL('New Game +')
+        commands[cmd_new_game_plus = commands.length] = _INTL("New Game +")
       end
-      commands[cmd_options = commands.length] = _INTL('Options')
-      commands[cmd_language = commands.length] = _INTL('Language') if Settings::LANGUAGES.length >= 2 && Settings::KANTO
-
+      commands[cmd_options = commands.length] = _INTL("Options")
+      commands[cmd_language = commands.length] = _INTL("Language") if Settings::LANGUAGES[Settings::GAME_ID].length >= 2
 
       cmd_links = {}
 
@@ -507,11 +510,11 @@ class PokemonLoadScreen
         commands[commands.length] = _INTL(key)
       end
 
-      # commands[cmd_discord = commands.length] = _INTL('Discord')
-      # commands[cmd_wiki = commands.length] = _INTL('Wiki')
-      commands[cmd_savefile = commands.length] = _INTL('Savefile management') if show_continue
-      commands[cmd_debug = commands.length] = _INTL('Debug') if $DEBUG
-      commands[cmd_quit = commands.length] = _INTL('Quit Game')
+      # commands[cmd_discord = commands.length] = _INTL("Discord")
+      # commands[cmd_wiki = commands.length] = _INTL("Wiki")
+      commands[cmd_savefile = commands.length] = _INTL("Savefile management") if show_continue
+      commands[cmd_debug = commands.length] = _INTL("Debug") if $DEBUG
+      commands[cmd_quit = commands.length] = _INTL("Quit Game")
       cmd_left = -3
       cmd_right = -2
 
@@ -566,7 +569,8 @@ class PokemonLoadScreen
         when cmd_language
           @scene.pbEndScene
           $PokemonSystem.language = pbChooseLanguage
-          pbLoadMessages('Data/' + Settings::LANGUAGES[$PokemonSystem.language][1])
+          MessageConfig.pbResetSystemFontName
+          pbLoadMessages('Data/' + Settings::LANGUAGES[Settings::GAME_ID][$PokemonSystem.language][1])
           if show_continue
             @save_data[:pokemon_system] = $PokemonSystem
             File.open(SaveData.get_full_path(@selected_file), 'wb') { |file| Marshal.dump(@save_data, file) }
@@ -735,7 +739,7 @@ class PokemonSaveScreen
         _INTL("Save to another slot"),
         _INTL("Don't save")
       ]
-      opt = pbMessage(_INTL('Would you like to save the game?'), choices, 3)
+      opt = pbMessage(_INTL("Would you like to save the game?"), choices, 3)
       if opt == 0
         pbSEPlay('GUI save choice')
         ret = doSave($Trainer.save_slot)
@@ -912,9 +916,12 @@ module Game
     # Set resize factor
     pbSetResizeFactor([$PokemonSystem.screensize, 4].min)
     # Set language (and choose language if there is no save file)
-    if Settings::LANGUAGES.length >= 2 && Settings::KANTO
+    if Settings::LANGUAGES[Settings::GAME_ID].length >= 2
       $PokemonSystem.language = pbChooseLanguage if save_data.empty?
-      pbLoadMessages('Data/' + Settings::LANGUAGES[$PokemonSystem.language][1])
+
+      available_languages = Settings::LANGUAGES[Settings::GAME_ID]
+      $PokemonSystem.language = 0 if $PokemonSystem.language > available_languages.length-1
+      pbLoadMessages('Data/' + available_languages[$PokemonSystem.language][1])
     end
   end
 

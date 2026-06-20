@@ -549,7 +549,7 @@ class Pokemon
     return if !able?
     new_status = GameData::Status.try_get(value)
     if !new_status
-      raise ArgumentError, _INTL('Attempted to set {1} as Pokémon status', value.class.name)
+      raise ArgumentError, _INTL("Attempted to set {1} as Pokémon status", value.class.name)
     end
     @status = new_status.id
   end
@@ -923,7 +923,7 @@ class Pokemon
   # @param mail [Mail, nil] mail to be held by this Pokémon
   def mail=(mail)
     if !mail.nil? && !mail.is_a?(Mail)
-      raise ArgumentError, _INTL('Invalid value {1} given', mail.inspect)
+      raise ArgumentError, _INTL("Invalid value {1} given", mail.inspect)
     end
     @mail = mail
   end
@@ -1345,7 +1345,7 @@ class Pokemon
       _INTL("Evolve body!"),
       _INTL("Don't evolve")
     ]
-    choice = pbMessage(_INTL('\\f[{2}]Both halves of {1} are ready to evolve!', self.name,self.id_number), choices, 0)
+    choice = pbMessage(_INTL("\\f[{2}]Both halves of {1} are ready to evolve!", self.name,self.id_number), choices, 0)
     # if choice == 0  #EVOLVE BOTH
     #   newspecies = getFusionSpecies(body_evolution,head_evolution)
     if choice == 0 #EVOLVE HEAD
@@ -1692,7 +1692,7 @@ class Pokemon
     @timeReceived = Time.new.to_i
     @timeEggHatched = nil
     @fused = nil
-    @personalID = rand(2 ** 16) | rand(2 ** 16) << 16
+    @personalID = generate_personal_id
     @hp = 1
     @totalhp = 1
     @spriteform_body = nil
@@ -1717,6 +1717,10 @@ class Pokemon
     @ow_coordinates = nil
     @sprite_letter = nil
     @evolve_from_party = false
+  end
+
+  def generate_personal_id
+    return rand(2 ** 16) | rand(2 ** 16) << 16
   end
 
 

@@ -341,7 +341,10 @@ def pbGetBasicMapNameFromId(id)
 end
 
 def pbGetMapNameFromId(id)
-  map = pbGetBasicMapNameFromId(id)
+  map = pbGetMessage(MessageTypes::MapNames, id)
+  if nil_or_empty?(map)
+    map = pbGetBasicMapNameFromId(id)
+  end
   map.gsub!(/\\PN/, $Trainer.name) if $Trainer
   return map
 end
@@ -978,13 +981,14 @@ def pbMessageChooseNumber(message, params, &block)
   return ret
 end
 
-def pbShowCommands(msgwindow, commands = nil, cmdIfCancel = 0, defaultCmd = 0, x_offset = nil, y_offset = nil)
+def pbShowCommands(msgwindow, commands = nil, cmdIfCancel = 0, defaultCmd = 0, x_offset = nil, y_offset = nil, font= nil)
   return 0 if !commands
   $PokemonTemp.speechbubble_arrow.visible = false if $PokemonTemp.speechbubble_arrow && !$PokemonTemp.speechbubble_arrow.disposed?
   if defaultCmd == 0 && ($game_variables && $game_variables[VAR_COMMAND_WINDOW_INDEX] != 0)
     defaultCmd = $game_variables[VAR_COMMAND_WINDOW_INDEX]
   end
   cmdwindow = Window_CommandPokemonEx.new(commands)
+  cmdwindow.contents.font.name = font if font
   cmdwindow.z = 99999
   cmdwindow.visible = true
   cmdwindow.resizeToFit(cmdwindow.commands)

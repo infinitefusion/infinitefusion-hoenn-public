@@ -324,7 +324,7 @@ class PokeRadarAppScene < PokeNavAppScene
     return unless @unseenPokemon.any?
     Kernel.pbClearText()
     showHeaderInfo
-    pbMessage(_INTL('You need to encounter the Pokémon before you can scan for it.'))
+    pbMessage(_INTL("You need to encounter the Pokémon before you can scan for it."))
     hover_unseen
   end
 
@@ -464,14 +464,16 @@ def spawn_pokeradar_pokemon(species, level)
     event = spawned_events[0]
     grass = $PokemonTemp&.pokeradar[3]
 
-    if grass[3] == 2
+    if grass && grass[3] == 2
       pbSEPlay("shiny", 60)
       playAnimation(Settings::SPARKLE_SHORT_ANIMATION_ID, event.x, event.y)
       event.make_shiny
     end
 
-    event.behavior_roaming    = :look_around
+    #todo: MAYBE increase the move frequency past a certain chain number (50?) to make it more difficult
+    event.behavior_roaming    = :look_around_player
     event.behavior_noticed    = event.pokemon.shiny? ? :curious : :flee
+    event.update_movement_type
     event.turn_away_from_player
     playAnimation(Settings::POKERADAR_LIGHT_ANIMATION_RED_ID, event.x, event.y)
   else

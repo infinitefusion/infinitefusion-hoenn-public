@@ -13,6 +13,7 @@ class OverworldPokemonEvent < Game_Event
   attr_reader :part_of_pokeradar_chain
   attr_reader :noticed_player_once
   attr_reader :last_facing_direction
+
   DISTANCE_FOR_DESPAWN = 16
   FLEEING_BEHAVIORS = [:flee, :flee_flying, :teleport_away]
 
