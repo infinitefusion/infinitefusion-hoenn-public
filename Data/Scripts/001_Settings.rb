@@ -8,8 +8,8 @@ module Settings
   GAME_VERSION_NUMBER = "6.8.0"
   LATEST_GAME_RELEASE = "6.6"
 
-  HOENN_VERSION_NUMBER = "1.0.6"
-  HOENN_LATEST_GAME_RELEASE = "1.0.6"
+  HOENN_VERSION_NUMBER = "1.0.7"
+  HOENN_LATEST_GAME_RELEASE = "1.0.7"
 
   SNOW_DAY = false
 
@@ -302,7 +302,7 @@ module Settings
   BADGE_FOR_STRENGTH = 5
   BADGE_FOR_DIVE = 9
   BADGE_FOR_WATERFALL = 9
-  BADGE_FOR_TELEPORT = 3
+  BADGE_FOR_TELEPORT = 1
   BADGE_FOR_BOUNCE = 8
   BADGE_FOR_ROCKCLIMB = 16
   #=============================================================================
