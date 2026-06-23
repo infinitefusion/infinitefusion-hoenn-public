@@ -8,8 +8,8 @@ module Settings
   GAME_VERSION_NUMBER = "6.8.0"
   LATEST_GAME_RELEASE = "6.6"
 
-  HOENN_VERSION_NUMBER = "1.0.5"
-  HOENN_LATEST_GAME_RELEASE = "1.0.5"
+  HOENN_VERSION_NUMBER = "1.0.6"
+  HOENN_LATEST_GAME_RELEASE = "1.0.6"
 
   SNOW_DAY = false
 
@@ -686,8 +686,14 @@ module Settings
 
 end
 
+module MysteryGift
+  URL = "https://download.infinitefusion.net/mystery_gift/MysteryGiftPublic.json"
+  PRIVATE_URL = "https://download.infinitefusion.net/mystery_gift/MysteryGiftsPrivate/"
+end
+
 # DO NOT EDIT THESE!
 module Essentials
   VERSION = "19.1.dev"
   ERROR_TEXT = ""
 end
+

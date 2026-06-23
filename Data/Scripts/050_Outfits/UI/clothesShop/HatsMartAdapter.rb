@@ -187,7 +187,7 @@ class HatsMartAdapter < OutfitsMartAdapter
   def getSpecialItemCaption(specialType)
     case specialType
     when :REMOVE_HAT
-      return "Remove hat"
+      return _INTL("Remove hat")
     end
     return nil
   end
@@ -207,10 +207,15 @@ class HatsMartAdapter < OutfitsMartAdapter
     end
     return nil
   end
-
+  def isBald?
+    return true unless $Trainer.hair
+    bald_ids = [HAIR_BALD, HAIR_BALD_POLISHED]
+    hair_id = getSimplifiedHairIdFromFullID($Trainer.hair)
+    return bald_ids.include?(hair_id)
+  end
   def getSpecialItemDescription(specialType)
-    hair_situation = !$Trainer.hair || getSimplifiedHairIdFromFullID($Trainer.hair) == HAIR_BALD ? "bald head" : "fabulous hair"
-    return "Go without a hat and show off your #{hair_situation}!"
+    hair_situation = isBald?() ? "bald head" : "fabulous hair"
+    return _INTL("Go without a hat and show off your {}!",hair_situation)
   end
 
   def doSpecialItemAction(specialType, item = nil)
