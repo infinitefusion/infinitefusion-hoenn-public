@@ -4,6 +4,7 @@ module Settings
 
   SHINY_POKEMON_CHANCE = 16
   SNOW_DAY = false
+  MEW_OW_ENCOUNTER_CHANCE = 0
 
   STARTUP_MESSAGES = "Pokémon Infinite Fusion 2 is now available! Download it from the game's Discord!" #Legacy starting PIF1 6.8
   STARTUP_MESSAGES_KANTO = "Pokémon Infinite Fusion 2 is now available! Download it from the game's Discord!"
@@ -61,7 +62,7 @@ module Settings
   AI_ENTRIES_RATE_LOG_FILE = 'Data/pokedex/rate_limit.log'  # Path to the log file
 
   #Spritepack
-  NEWEST_SPRITEPACK_MONTH = 5
+  NEWEST_SPRITEPACK_MONTH = 6
   NEWEST_SPRITEPACK_YEAR = 2026
 end
 

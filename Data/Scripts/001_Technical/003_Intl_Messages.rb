@@ -190,9 +190,40 @@ def pbSetTextMessages
         Graphics.update
       end
     end
+    pbAddTrainerTextMessages
   rescue Hangup
   end
   Graphics.update
+end
+
+
+def pbAddTrainerTextMessages
+  names      = []
+  loseTexts  = []
+  speeches   = []
+  infoTexts   = []
+  GameData::Trainer.each do |trainer|
+    names.push(trainer.real_name)
+
+    loseTexts.push(trainer.real_lose_text)
+    loseTexts.push(trainer.loseText_rematch) if trainer.loseText_rematch
+    loseTexts.push(trainer.loseText_rematch_double) if trainer.loseText_rematch_double
+
+    speeches.push(trainer.battleText) if trainer.battleText
+    speeches.push(trainer.preRematchText) if trainer.preRematchText
+    speeches.push(trainer.preRematchText_caught) if trainer.preRematchText_caught
+    speeches.push(trainer.preRematchText_evolved) if trainer.preRematchText_evolved
+    speeches.push(trainer.preRematchText_fused) if trainer.preRematchText_fused
+    speeches.push(trainer.preRematchText_unfused) if trainer.preRematchText_unfused
+    speeches.push(trainer.preRematchText_reversed) if trainer.preRematchText_reversed
+    speeches.push(trainer.preRematchText_gift) if trainer.preRematchText_gift
+
+    infoTexts.push(trainer.infoText) if trainer.infoText
+  end
+  MessageTypes.addMessagesAsHash(MessageTypes::TrainerNames, names)
+  MessageTypes.addMessagesAsHash(MessageTypes::TrainerLoseText, loseTexts)
+  MessageTypes.addMessagesAsHash(MessageTypes::BeginSpeech, speeches)
+  MessageTypes.addMessagesAsHash(MessageTypes::TrainerInfoText, infoTexts)
 end
 
 def pbEachIntlSection(file)
@@ -625,6 +656,7 @@ module MessageTypes
   ScriptTexts = 24
   RibbonNames = 25
   RibbonDescriptions = 26
+  TrainerInfoText = 27
   @@messages = Messages.new
   @@messagesFallback = Messages.new("Data/messages.dat", true)
 

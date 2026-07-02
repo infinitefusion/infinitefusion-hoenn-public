@@ -114,6 +114,18 @@ Knucklese<s>UnworthyPie
 Doctor Miawoo<s>TCGrunler#4583
 Chardub<s>
 
+<title>French Translation
+ITG<s>Piduf
+Maydangel<s>Maxifurius
+desregah<s>Zemelix
+PokemonInfiniteFusionFR Discord
+Coordinated by anthonygourmand
+
+<title>Chinese Translation
+Leon (Leonnovation)
+白崎时绘 (Shiroe)
+阿省呦 (Sheng)
+小鱼转晴 (XploreLight)
 
 The following free resources were also used 
 with their respective authors' consent:
