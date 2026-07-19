@@ -70,6 +70,7 @@ def postBattleActionsMenu(trainer=nil, event_id=nil)
   resetTrainerDebugCommand = _INTL("(Debug) Reset trainer")
   setFriendshipDebugCommand = _INTL("(Debug) Set Friendship")
   printTrainerTeamDebugCommand = _INTL("(Debug) Print team")
+  printTrainerInventoryCommand = _INTL("(Debug) Print inventory")
 
   unless trainer
     event = pbMapInterpreter.get_character(0)
@@ -91,6 +92,7 @@ def postBattleActionsMenu(trainer=nil, event_id=nil)
   options << resetTrainerDebugCommand if $DEBUG
   options << setFriendshipDebugCommand if $DEBUG
   options << printTrainerTeamDebugCommand if $DEBUG
+  options << printTrainerInventoryCommand if $DEBUG
 
   options << cancelCommand
   trainer = applyTrainerRandomEvents(trainer) if trainer.nb_rematches >=1
@@ -99,7 +101,10 @@ def postBattleActionsMenu(trainer=nil, event_id=nil)
   case options[choice]
   when rematchCommand
     doPostBattleAction(:BATTLE,trainer)
+    trainer.inventory = [] unless trainer.inventory
+    try_find_item(trainer)
     try_give_gift(trainer,event_id)
+    trainer.process_party_pokemon_held_items
   when viewTeamCommand
     pbFadeOutIn {
       screen = ContactsAppInfoPageScreen.new
@@ -128,6 +133,9 @@ def postBattleActionsMenu(trainer=nil, event_id=nil)
   when printTrainerTeamDebugCommand
     trainer = getRebattledTrainer(event.id,map_id)
     printNPCTrainerCurrentTeam(trainer)
+  when printTrainerInventoryCommand
+    trainer = getRebattledTrainer(event.id,map_id)
+    echoln trainer.inventory
   when cancelCommand
   else
     $PokemonGlobal.nextBattleBack=nil
@@ -136,10 +144,23 @@ def postBattleActionsMenu(trainer=nil, event_id=nil)
   $PokemonGlobal.nextBattleBack=nil
 end
 
+def try_find_item(trainer)
+  if should_find_item(trainer)
+    item = find_random_trainer_item(trainer)
+    trainer.inventory = [] unless trainer.inventory
+    trainer.inventory << item
+    updateRebattledTrainer(trainer)
+  end
+end
 def try_give_gift(trainer,event_id=nil)
   if should_give_item(trainer)
     item = select_gift_item(trainer)
-    echoln item
+    return unless item
+    if trainer.inventory.include?(item)
+      index = trainer.inventory.index(item)
+      trainer.inventory.delete_at(index) if index
+      updateRebattledTrainer(trainer)
+    end
     showGiftDialog(trainer,event_id)
     pbReceiveItem(item)
     return true

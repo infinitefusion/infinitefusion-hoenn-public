@@ -32,6 +32,9 @@ Doctor Miawoo
 <title>Intro animation:
 Kiwikelly
 
+<Music>
+mystora (Team Rocket Saffron City)
+
 <title>Custom sprites collecting and handling
 Kiwikelly, Payapon, Thornsoflight, Greystorm
 
@@ -64,7 +67,8 @@ UnworthyPie<s>Doctor Miawoo
 Chardub<s>TCGrunler#4583
 
 <title>Elite 4 rematch teams
-duskrd<s>anaconja<s>taraline
+duskrd<s>anaconja
+taraline<s>
 
 <title>French translation
 anthonygourmand

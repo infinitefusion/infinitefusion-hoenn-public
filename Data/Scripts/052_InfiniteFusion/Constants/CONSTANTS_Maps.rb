@@ -150,10 +150,12 @@ MAP_ROUTE_110 = 71
 MAP_ROUTE_111 = 77
 MAP_ROUTE_115 = 65
 MAP_ROUTE_116 = 31
-MAP_ROUTE_113 = 973 #todo: Temp
+MAP_ROUTE_113 = 116 #todo: Temp
 MAP_ROUTE_119 = 967 #todo: Temp
 MAP_ROUTE_120 = 966 #todo: Temp
 MAP_ROUTE_121 = 965 #todo: Temp
+MAP_ROUTE_124 = 962 #todo: Temp
+MAP_ROUTE_128 = 958 #todo: Temp
 
 # Dungeons/Areas
 MAP_PETALBURG_WOODS = 30

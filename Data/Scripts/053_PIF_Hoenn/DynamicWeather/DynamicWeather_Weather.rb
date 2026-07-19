@@ -236,7 +236,6 @@ class GameWeather
     if COLD_MAPS.include?(map_id) || Settings::SNOW_DAY
       type = :Snow if type == :Rain
       type = :Blizzard if type == :Storm
-      type = :None if type == :Sunny
     end
     if SNOW_LIMITS.include?(map_id)
       type = :Wind if type == :Ash

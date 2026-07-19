@@ -41,7 +41,7 @@ TYPE_EXPERTS_APPEARANCES = {
   :TYPE_EXPERT_WATER => TrainerAppearance.new(5, "waterdress", "waterdress", "1_pixie", 180, 0, 0),
   :TYPE_EXPERT_GRASS => TrainerAppearance.new(3, "grassexpert", "grassexpert", "3_roseradeF", 70, 0, 0, "sprout"),
   :TYPE_EXPERT_ELECTRIC => TrainerAppearance.new(3, "designerheadphones", "urbanelectric", "1_dancer", 10, 0, 0), # OK
-  :TYPE_EXPERT_PSYCHIC => TrainerAppearance.new(4, "nil", "psyshamanm", "3_nhair", 250, 0, 0), # TODO NEEDS OUTFIT, LOCATION, TEAM
+  :TYPE_EXPERT_PSYCHIC => TrainerAppearance.new(4, "nil", "psyshaman", "3_nhair", 250, 0, 0), # TODO NEEDS OUTFIT, LOCATION, TEAM
   :TYPE_EXPERT_ICE => TrainerAppearance.new(6, "skierF", "iceoutfit", "1_wavy", 0, 0, 210),
   :TYPE_EXPERT_DRAGON => TrainerAppearance.new(5, "aerodactylSkull", "dragonconqueror", "2_SpecialLatias", 670, 0, 510), # OK
   :TYPE_EXPERT_DARK => TrainerAppearance.new(4, "cynthiaaccessory", "darkoutfit", "3_emo", 330, 0, 0),
@@ -53,7 +53,7 @@ TYPE_EXPERTS_APPEARANCES = {
   :ADVENTURER_SINNOH => TrainerAppearance.new(6,"lucasDPP","longshirtskirt","1_hime",0,0,0) ,
   :ADVENTURER_UNOVA => TrainerAppearance.new(5, "hilbert", "red", "1_nhair", 0, 0, 0),
   :ADVENTURER_KALOS => TrainerAppearance.new(5, "serena", "Ramos", "2_naveen", 0, 0, 0),
-  :ADVENTURER_ALOLA => TrainerAppearance.new(5, "seleneUSUM", "leaf", "2_mistyRBY", 0, 0, 0),
+  :ADVENTURER_ALOLA => TrainerAppearance.new(4,"seleneUSUM","chimingdress","4_cheryl",0,0,0),
 
 }
 

@@ -85,7 +85,7 @@
         "regiontags": "kanto",
         "pokemontags": "pikachu",
         "obtainmethodkanto": "Fashion Designer, Store (Regional Set)",
-        "obtainmethodhoenn": "Fashion Designer, Store (Regional Set)",
+        "obtainmethodhoenn": "Fashion Designer, Store (Regional Set), Mystery Gift",
         "notes": "given at league gate",
         "undefined": "Fashion Designer, Store (Regional Set)"
     },
@@ -461,8 +461,8 @@
         "tags": "hat, trainer",
         "contestcondition": "cool, beautiful",
         "regiontags": "orre",
-        "obtainmethodkanto": "Nesting Pokémon",
-        "obtainmethodhoenn": "Nesting Pokémon"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "dateadded": "2026-06-25T04:00:00.000Z",
@@ -474,8 +474,8 @@
         "tags": "hat, trainer",
         "contestcondition": "cool, beautiful",
         "regiontags": "orre",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "weaselsheep",
@@ -485,8 +485,8 @@
         "price": 1500,
         "tags": "accessory",
         "contestcondition": "cute, tough",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Mystery Gift",
+        "obtainmethodhoenn": "Mystery Gift"
     },
     {
         "dateadded": "2026-05-11T04:00:00.000Z",
@@ -502,6 +502,18 @@
         "obtainmethodkanto": "Fashion Designer",
         "obtainmethodhoenn": "Store (City), Fashion Designer",
         "notes": "Should be sold in the same place as the chiming dress if possible."
+    },
+    {
+        "dateadded": "2026-07-18T04:00:00.000Z",
+        "author": "the.red letter & matpal6",
+        "id": "choiceband",
+        "name": "Choice Band",
+        "description": "A headband typically worn by pokemon. You feel stronger wearing it.",
+        "price": 1000,
+        "tags": "headband",
+        "contestcondition": "tough, clever",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "dateadded": "2026-05-20T04:00:00.000Z",
@@ -766,8 +778,8 @@
         "tags": "hat, weather-cold, default",
         "contestcondition": "clever, cool",
         "storelocation": "mauville",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Store (Regional Set)",
+        "obtainmethodhoenn": "Store (Regional Set)"
     },
     {
         "author": "ohok3441",
@@ -830,8 +842,8 @@
         "tags": "headband, accessory",
         "contestcondition": "beautiful, clever",
         "regiontags": "galar",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer"
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     },
     {
         "author": "chromaerym",
@@ -1116,7 +1128,7 @@
     {
         "author": "takopus",
         "id": "GastrodonHelmetEast",
-        "name": "Gastrodon Helmet (East)",
+        "name": "Sea Slug Helmet (E)",
         "description": "A helmet resembling the head of a Gastrodon from the East.",
         "price": 10000,
         "tags": "hat",
@@ -1128,7 +1140,7 @@
     {
         "author": "takopus",
         "id": "GastrodonHelmetWest",
-        "name": "Gastrodon Helmet (West)",
+        "name": "Sea Slug Helmet (W)",
         "description": "A helmet resembling the head of a Gastrodon from the West.",
         "price": 10000,
         "tags": "hat",
@@ -1504,7 +1516,7 @@
         "tags": "hat",
         "contestcondition": "cool, tough",
         "storelocation": "rustboro",
-        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodkanto": "Overworld",
         "obtainmethodhoenn": "Store (City)"
     },
     {
@@ -1651,6 +1663,18 @@
         "notes": "type trainer"
     },
     {
+        "dateadded": "2026-07-05T04:00:00.000Z",
+        "author": "malxire",
+        "id": "katy",
+        "name": "Pastry Chef's Beret",
+        "description": "A puffy beret that looks as sweet as the treats pastry chefs make.",
+        "price": 1000,
+        "tags": "hat, trainer",
+        "regiontags": "paldea",
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)"
+    },
+    {
         "author": "malxire",
         "id": "kogascarf",
         "name": "Ninja Scarf",
@@ -1746,6 +1770,20 @@
         "contestcondition": "beautiful, cute",
         "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "dateadded": "2026-06-27T04:00:00.000Z",
+        "author": "albinosfox",
+        "additionalcredits": "Game Freak",
+        "id": "LotadHead",
+        "name": "Lotad Mask",
+        "description": "A sleek mascot head worn by PokeManiacs. This one looks like a Lotad!",
+        "price": 1200,
+        "tags": "mask",
+        "contestcondition": "cute",
+        "pokemontags": "lotad, lombre, ludicolo",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Trainer Friendship"
     },
     {
         "author": ".payapon",
@@ -1992,6 +2030,19 @@
         "obtainmethodkanto": "Store (Regional Set)",
         "obtainmethodhoenn": "Store (Regional Set)",
         "notes": "gym reward"
+    },
+    {
+        "dateadded": "2026-07-18T04:00:00.000Z",
+        "author": "albinosfox",
+        "id": "MudkipHead",
+        "name": "Mudkip Mask",
+        "description": "A shiny mascot head worn by PokeManiacs. This one looks like a Mudkip!",
+        "price": 1200,
+        "tags": "mask",
+        "contestcondition": "cute",
+        "pokemontags": "mudkip, marshtomp, swampert",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": ".payapon",
@@ -2332,7 +2383,7 @@
         "tags": "hat,special",
         "contestcondition": "tough",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Mystery Gift"
     },
     {
         "dateadded": "2026-06-25T04:00:00.000Z",
@@ -2345,7 +2396,7 @@
         "tags": "mask",
         "contestcondition": "cute",
         "pokemontags": "poochyena, mightyena",
-        "obtainmethodkanto": "Store (City)",
+        "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Trainer Friendship"
     },
     {
@@ -2555,7 +2606,7 @@
         "price": 10000,
         "tags": "hat,trainer,special",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable",
+        "obtainmethodhoenn": "Mystery Gift",
         "notes": "nugget bridge recruiter"
     },
     {
@@ -2739,6 +2790,19 @@
         "notes": "lying around in the ss anne capt cabin"
     },
     {
+        "dateadded": "2026-07-18T04:00:00.000Z",
+        "author": "albinosfox",
+        "id": "SeedotHead",
+        "name": "Seedot mask",
+        "description": "A smooth mascot head worn by PokeManiacs. This one looks like a Seedot!",
+        "price": 1200,
+        "tags": "mask",
+        "contestcondition": "cute",
+        "pokemontags": "seedot, nuzleaf, shiftry",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
+    },
+    {
         "author": ".rayzard",
         "id": "seedothelmet",
         "name": "Acorn Helmet",
@@ -2821,7 +2885,7 @@
         "tags": "headband,special",
         "contestcondition": "clever",
         "obtainmethodkanto": "Other NPC / Quest",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Mystery Gift"
     },
     {
         "author": ".payapon",
@@ -3154,6 +3218,19 @@
         "obtainmethodhoenn": "Fashion Designer"
     },
     {
+        "dateadded": "2026-07-18T04:00:00.000Z",
+        "author": "albinosfox",
+        "id": "TaillowHead",
+        "name": "Taillow mask",
+        "description": "A feathery mascot head worn by PokeManiacs. This one looks like a Tailow!",
+        "price": 1200,
+        "tags": "mask",
+        "contestcondition": "cute",
+        "pokemontags": "taillow, swellow",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
+    },
+    {
         "author": ".payapon",
         "id": "tentacruel",
         "name": "Head Tentacruel",
@@ -3213,6 +3290,19 @@
         "obtainmethodhoenn": "Unobtainable"
     },
     {
+        "dateadded": "2026-07-18T04:00:00.000Z",
+        "author": "albinosfox",
+        "id": "TreeckoHead",
+        "name": "Treecko Mask",
+        "description": "A smooth mascot head worn by PokeManiacs. This one looks like a Treecko!",
+        "price": 1200,
+        "tags": "mask",
+        "contestcondition": "cute",
+        "pokemontags": "treecko, grovyle, sceptile",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
+    },
+    {
         "author": "ohok3441",
         "id": "trevenantforestkingcrown",
         "name": "Forest King Crown",
@@ -3258,7 +3348,7 @@
         "tags": "hat",
         "contestcondition": "cool, clever",
         "obtainmethodkanto": "Overworld",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Mystery Gift"
     },
     {
         "author": "chromaerym",
@@ -3386,6 +3476,18 @@
         "obtainmethodhoenn": "Unobtainable"
     },
     {
+        "dateadded": "2026-07-05T04:00:00.000Z",
+        "author": "holgast",
+        "id": "windshat",
+        "name": "Windy Hat",
+        "description": "A hat worn by those who follow the winds.",
+        "price": 800,
+        "tags": "hat, trainer, special",
+        "regiontags": "gen10",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Fashion Designer"
+    },
+    {
         "dateadded": "2025-10-27T04:00:00.000Z",
         "author": ".realthree",
         "id": "windupkey",
@@ -3409,9 +3511,9 @@
         "tags": "hat",
         "contestcondition": "cute",
         "pokemontags": "wingull, pelipper",
-        "storelocation": "vermillion",
-        "obtainmethodkanto": "#REF!",
-        "obtainmethodhoenn": "#REF!"
+        "storelocation": "vermillion, sootopolis",
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "malxire",
@@ -3421,7 +3523,7 @@
         "price": 18000,
         "tags": "hat",
         "contestcondition": "cool, beautiful",
-        "obtainmethodkanto": "Store (City), Fashion Designer",
+        "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Other NPC / Quest",
         "notes": "gym reward (winona)"
     },
@@ -3436,7 +3538,7 @@
         "contestcondition": "clever",
         "storelocation": "lilycove",
         "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodhoenn": "Store (City)"
     },
     {
         "author": "gummy.frog",
@@ -3447,8 +3549,8 @@
         "tags": "hairclip",
         "contestcondition": "cute",
         "pokemontags": "wooper, quagsire",
-        "obtainmethodkanto": "#REF!",
-        "obtainmethodhoenn": "#REF!",
+        "obtainmethodkanto": "Other NPC / Quest",
+        "obtainmethodhoenn": "Unobtainable",
         "notes": "quest cerulean"
     },
     {
@@ -3462,7 +3564,7 @@
         "tags": "mask",
         "contestcondition": "cute",
         "pokemontags": "wurmple, beautifly, silcoon, cascoon",
-        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodkanto": "Fashion Designer",
         "obtainmethodhoenn": "Trainer Friendship"
     },
     {
@@ -3473,8 +3575,8 @@
         "price": 2500,
         "tags": "hat,trainer",
         "storelocation": "pewter,rustboro",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Fashion Designer",
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Store (City)",
         "notes": "trainer clothing store?"
     },
     {
@@ -3512,21 +3614,409 @@
         "tags": "mask",
         "contestcondition": "cute",
         "pokemontags": "zigzagoon, linoone",
-        "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Trainer Friendship"
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
-        "dateadded": "2026-06-27T04:00:00.000Z",
-        "author": "albinosfox",
-        "additionalcredits": "Game Freak",
-        "id": "LotadHead",
-        "name": "Lotad Mask",
-        "description": "A sleek mascot head worn by PokeManiacs. This one looks like a Lotad!",
-        "price": 1200,
-        "tags": "mask",
-        "contestcondition": "cute",
-        "pokemontags": "lotad, lombre, ludicolo",
+        "dateadded": "2026-07-18T04:00:00.000Z",
+        "author": "enderwarlock",
+        "id": "zubatkidmask",
+        "name": "Zubat Kid Cowl",
+        "description": "The heroic cowl that you didn't choose... it chose you.",
+        "price": 1800,
+        "tags": "mask, special",
+        "contestcondition": "tough, cool",
+        "pokemontags": "zubat, golbat, crobat",
+        "obtainmethodkanto": "Nesting Pokémon",
+        "obtainmethodhoenn": "Overworld",
+        "notes": "should be obtained in the same way that the zubat kid outfit is"
+    },
+    {
+        "dateadded": "2026-07-19T19:57:38.326Z",
+        "author": ".payapon",
+        "additionalcredits": "The Pokemon Company",
+        "id": "partywurmple",
+        "name": "Green Striped Party Hat",
+        "description": "A party hat featuring blue and green stripes with a large fuschia pom on the top",
+        "price": 300,
+        "tags": "hat",
+        "contestcondition": "cute, cool",
+        "pokemontags": "wurmple,",
         "obtainmethodkanto": "Fashion Designer",
-        "obtainmethodhoenn": "Trainer Friendship"
+        "obtainmethodhoenn": "Other NPC / Quest"
+    },
+    {
+        "dateadded": "2026-07-19T20:00:44.148Z",
+        "author": ".payapon",
+        "additionalcredits": "The Pokemon Company",
+        "id": "partygostripes",
+        "name": "Purple Striped Party Hat",
+        "description": "A party hat featuring pink and purple stripes with a turquoise pom and fringe.",
+        "price": 300,
+        "tags": "special, hat",
+        "contestcondition": "cute",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Other NPC / Quest"
+    },
+    {
+        "dateadded": "2026-07-19T20:04:29.883Z",
+        "author": ".payapon",
+        "additionalcredits": "The Pokemon Company",
+        "id": "partygopolka",
+        "name": "Polka Dot Party Hat",
+        "description": "A party hat featuring small polka dots with colorful tassel sprouting from the top.",
+        "price": 300,
+        "tags": "special, hat",
+        "contestcondition": "cute",
+        "obtainmethodkanto": "Fashion Designer",
+        "obtainmethodhoenn": "Other NPC / Quest"
+    },
+    {
+        "dateadded": "2026-07-19T20:07:37.178Z",
+        "author": ".payapon",
+        "additionalcredits": "The Pokemon Company",
+        "id": "partyhatennaspots",
+        "name": "Pastel Spots Party Hat",
+        "description": "A party hat featuring pastel spots; similar to a particular pokemon in another region.",
+        "price": 300,
+        "tags": "special, hat",
+        "contestcondition": "cute, clever",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Other NPC / Quest"
+    },
+    {
+        "dateadded": "2026-07-19T20:09:13.337Z",
+        "author": ".payapon",
+        "additionalcredits": "The Pokemon Company",
+        "id": "partysmashstars",
+        "name": "Starry Party Hat",
+        "description": "A party hat featuring white stars. It's quite smashing!",
+        "price": 300,
+        "tags": "special, hat",
+        "contestcondition": "cute, clever",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Other NPC / Quest"
+    },
+    {
+        "dateadded": "2026-07-19T20:10:43.468Z",
+        "author": ".payapon",
+        "additionalcredits": "The Pokemon Company",
+        "id": "partyanimestripes",
+        "name": "Red Striped Party Hat",
+        "description": "A party hat featuring red and orange stripes with a white pom on top.",
+        "price": 300,
+        "tags": "special, hat",
+        "contestcondition": "cute",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Other NPC / Quest"
+    },
+    {
+        "dateadded": "2026-07-19T20:11:51.238Z",
+        "author": ".payapon",
+        "additionalcredits": "The Pokemon Company",
+        "id": "partyanimespots",
+        "name": "Spotted Party Hat",
+        "description": "A basic party hat featuring large spots.",
+        "price": 300,
+        "tags": "special, hat",
+        "contestcondition": "cute",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Other NPC / Quest"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Other NPC / Quest"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
+    },
+    {
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable"
     }
 ]

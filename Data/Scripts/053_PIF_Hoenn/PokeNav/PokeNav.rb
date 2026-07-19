@@ -60,6 +60,7 @@ class Pokenav
 
   def install_app(app_id)
     return unless Pokenav::AVAILABLE_APPS.keys.include?(app_id)
+    initialize unless @installed_apps
     @installed_apps << app_id unless @installed_apps.include?(app_id)
     app_name = Pokenav.app_name(app_id)
     pbMEPlay("match_call")
@@ -75,7 +76,7 @@ class PokemonPokegearScreen
 
   def update_commands
     commands = []
-    $Trainer.pokenav.installed_apps.each do |app|
+    $Trainer.pokenav&.installed_apps.each do |app|
       commands << [app.to_s, Pokenav.app_name(app)]
     end
     return commands

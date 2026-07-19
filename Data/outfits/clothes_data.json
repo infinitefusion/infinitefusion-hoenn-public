@@ -210,7 +210,7 @@
     {
         "author": "malxire",
         "id": "basicice",
-        "name": "Ground Shirt",
+        "name": "Ice Shirt",
         "description": "A cyan shirt with a snowflake logo.",
         "price": 500,
         "tags": "special",
@@ -278,6 +278,34 @@
         "obtainmethodhoenn": "Other NPC / Quest"
     },
     {
+        "dateadded": "2026-07-06T04:00:00.000Z",
+        "author": "gummy.frog",
+        "id": "battlegirl",
+        "name": "Orange Workout Gear",
+        "description": "Violently orange sportswear paired with fighting gloves. It's perfect for training fighting type Pokemon.",
+        "price": 1000,
+        "tags": "special",
+        "contestcondition": "tough",
+        "storelocation": "saffron",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Trainer Friendship",
+        "notes": "Gifted by a battle girl trainer after max friendship."
+    },
+    {
+        "dateadded": "2026-07-06T04:00:00.000Z",
+        "author": "gummy.frog",
+        "id": "battlegirlflat",
+        "name": "Orange Workout Gear",
+        "description": "Violently orange sportswear paired with fighting gloves. It's perfect for training fighting type Pokemon.",
+        "price": 1000,
+        "tags": "special",
+        "contestcondition": "tough",
+        "storelocation": "saffron",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Trainer Friendship",
+        "notes": "Gifted by a battle girl trainer after max friendship."
+    },
+    {
         "author": "volvonovic",
         "id": "bikertraineroutfit",
         "name": "Biker Outfit",
@@ -307,6 +335,19 @@
         "id": "BlackSwimTrunks",
         "name": "Black Swim Trunks",
         "description": "A pair of black swim trunks with a Pokeball design on one leg, and a life jacket.",
+        "price": 1000,
+        "contestcondition": "clever",
+        "storelocation": "vermillion",
+        "obtainmethodkanto": "Store (City)",
+        "obtainmethodhoenn": "Trainer Friendship",
+        "notes": "Gifted by a swimmer trainer after max friendship."
+    },
+    {
+        "dateadded": "2026-07-05T04:00:00.000Z",
+        "author": "albinosfox",
+        "id": "BlueSwimTrunks",
+        "name": "Blue Swim Trunks",
+        "description": "A pair of blue swim trunks with white stripes on the legs, and a life jacket.",
         "price": 1000,
         "contestcondition": "clever",
         "storelocation": "vermillion",
@@ -640,6 +681,19 @@
         "obtainmethodkanto": "Unobtainable",
         "obtainmethodhoenn": "Trainer Friendship",
         "notes": "Gifted by a fisherman trainer after max friendship."
+    },
+    {
+        "dateadded": "2026-07-18T04:00:00.000Z",
+        "author": "albinosfox",
+        "id": "FlameSwimTrunks",
+        "name": "Flame Swim Trunks",
+        "description": "Red and orange swim trunks with a firey design, and an orange life jacket.",
+        "price": 1000,
+        "tags": "special",
+        "contestcondition": "tough",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Trainer Friendship",
+        "notes": "Gifted by a swimmer trainer after max friendship."
     },
     {
         "author": "lunabups",
@@ -1382,7 +1436,7 @@
         "tags": "type-psychic",
         "contestcondition": "clever, tough",
         "obtainmethodkanto": "Type Expert",
-        "obtainmethodhoenn": "Type Expert"
+        "obtainmethodhoenn": "Trainer Friendship"
     },
     {
         "author": "xenophacilus",
@@ -1595,7 +1649,7 @@
         "author": "mfwr",
         "id": "SnowCoatFemale",
         "name": "Blue Snow Coat (F)",
-        "description": "A warm blue coat, red skirt, leggins and boots, perfect for cold weather.",
+        "description": "A warm blue coat, red skirt, leggings and boots, perfect for cold weather.",
         "obtainable": "yes",
         "price": 5000,
         "contestcondition": "clever, cute",
@@ -1691,8 +1745,8 @@
         "contestcondition": "cute",
         "regiontags": "orre",
         "storelocation": "mauville",
-        "obtainmethodkanto": "Unobtainable",
-        "obtainmethodhoenn": "Unobtainable"
+        "obtainmethodkanto": "Fashion Designer, Store (City)",
+        "obtainmethodhoenn": "Fashion Designer"
     },
     {
         "author": "dabouiw",
@@ -1875,7 +1929,7 @@
         "price": 1000,
         "tags": "special",
         "contestcondition": "cool",
-        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodkanto": "Store (City)",
         "obtainmethodhoenn": "Trainer Friendship",
         "notes": "Gifted by a youngster trainer after max friendship."
     },
@@ -1920,5 +1974,19 @@
         "storelocation": "celadon, goldenrod, mauville",
         "obtainmethodkanto": "Fashion Designer, Store (City)",
         "obtainmethodhoenn": "Fashion Designer, Store (City)"
+    },
+    {
+        "dateadded": "2026-07-18T04:00:00.000Z",
+        "author": "enderwarlock",
+        "id": "zubatkidcostume",
+        "name": "Zubat Kid Costume",
+        "description": "A heroic costume inspired by Zubat. Become the trainer they don't deserve, but do need. ",
+        "price": 2000,
+        "tags": "special",
+        "contestcondition": "clever, tough",
+        "pokemontags": "zubat, golbat, crobat",
+        "obtainmethodkanto": "Unobtainable",
+        "obtainmethodhoenn": "Unobtainable",
+        "notes": "Suggested obtain method: In a Evil Team Hideout have a clown battles you, upon defeat they give you \"an outfit an old rival use to wear.\" \n\nItem effect: (In the Submerged Temple if a Sharpedo attacks you while wearing this you get a second chance/bypass them with a notification saying it's thanks to your outfit coming with a \"Sharpedo Repel\" referencing the infamous Adam West Batman vs Shark scene"
     }
 ]

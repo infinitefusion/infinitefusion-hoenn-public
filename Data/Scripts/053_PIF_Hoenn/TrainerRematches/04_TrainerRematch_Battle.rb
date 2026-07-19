@@ -38,6 +38,16 @@ def evolveRebattledTrainerPokemon(trainer)
   updated_team = []
   for pokemon in trainer.currentTeam
     evolution_species = pokemon.check_evolution_on_level_up(false)
+    unless evolution_species  #Level up evolution has priority over stone evolution
+      trainer.list_evolution_items.each do |evolution_item|
+        evolution_species = pokemon.check_evolution_on_use_item(evolution_item)
+        if evolution_species
+          index = trainer.inventory.index(evolution_item)
+          trainer.inventory.delete_at(index) if index
+        end
+      end
+    end
+
     if evolution_species && pokemonAllowedToEvolve(pokemon, evolution_species)
       trainer.log_evolution_event(pokemon.species, evolution_species)
       trainer.set_pending_action(true)
@@ -48,6 +58,18 @@ def evolveRebattledTrainerPokemon(trainer)
   end
   trainer.currentTeam = updated_team
   return trainer
+end
+
+def update_items(trainer)
+  return unless $PokemonTemp.battle_npc_used_items
+  $PokemonTemp.battle_npc_used_items.each do |item|
+    if trainer.inventory.include?(item)
+      index = trainer.inventory.index(item)
+      trainer.inventory.delete_at(index) if index
+    end
+  end
+  return trainer
+  $PokemonTemp.battle_npc_used_items=nil
 end
 
 def pokemonAllowedToEvolve(pokemon, evolution_species=nil)
@@ -78,6 +100,7 @@ def generateTrainerRematch(trainer, allow_double = true)
   updated_trainer = makeRebattledTrainerTeamGainExp(trainer, player_won)
   updated_trainer = healRebattledTrainerPokemon(updated_trainer)
   updated_trainer.set_pending_action(false)
+  updated_trainer.update_items(updated_trainer)
   updated_trainer = evolveRebattledTrainerPokemon(updated_trainer)
   trainer.increase_friendship(5)
   trainer.nb_rematches +=1

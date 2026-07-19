@@ -128,16 +128,7 @@ end
 
 def select_altering_cave_encounter
   level_range = 8..16
-  encounter_table =
-    {
-      :MONDAY => [:ZUBAT, :ZUBAT, :ZUBAT, :WOOBAT, :HOUNDOUR],
-      :TUESDAY => [:ZUBAT, :ZUBAT, :ZUBAT, :WOOBAT, :SCRAGGY],
-      :WEDNESDAY => [:ZUBAT, :ZUBAT, :ZUBAT, :WOOBAT, :PINECO],
-      :THURSDAY => [:ZUBAT, :ZUBAT, :ZUBAT, :WOOBAT, :MAREEP],
-      :FRIDAY => [:ZUBAT, :ZUBAT, :ZUBAT, :WOOBAT, :TEDDIURSA],
-      :SATURDAY => [:ZUBAT, :ZUBAT, :ZUBAT, :WOOBAT, :AIPOM],
-      :SUNDAY => [:ZUBAT, :ZUBAT, :ZUBAT, :WOOBAT, :SMEARGLE],
-    }
+  encounter_table = Settings::ALTERING_CAVE_ENCOUNTERS
   day_of_week = getDayOfTheWeek
   species = encounter_table[day_of_week].sample
   level = rand(level_range)
@@ -243,7 +234,7 @@ def convertHeartScalesToCoins
     pbSEPlay("MiningRevealItem")
     pbWait(4)
     pbCallBubDown(2, @event_id)
-    pbMessage(_INTL("Here you go! I converted your Heart Scales into {1} \\C[1]{2}\\C[0]!", nb_coins, COSMETIC_CURRENCY_NAME))
+    pbMessage(_INTL("Here you go! I converted your Heart Scales into {1} \\C[1]{2}\\C[0]!", nb_coins, get_cosmetic_currency_name))
     pbReceiveCosmeticsMoney(nb_coins)
     pbCallBubDown(2, @event_id)
     pbMessage(_INTL("Come back whenever you find more Heart Scales to convert!"))
@@ -328,5 +319,33 @@ end
 
 def inputColorCode(codeVariable)
   return ColorCodeDoor.new(codeVariable).inputColorCode
+end
+
+def count_soot()
+  map = $MapFactory.getMap($game_map.map_id)
+  count = 0
+  for x in 0...map.data.xsize
+    for y in 0...map.data.ysize
+      for i in 0...map.data.zsize
+        tile_id = map.data[x, y, i]
+        next if GameData::TerrainTag.try_get(map.terrain_tags[tile_id]).id != :SootGrass
+        count+=1
+      end
+    end
+  end
+  return count
+end
+
+def obtainBirthdayHat(celebration_id)
+  current_year = Time.now.year
+  birthday_id = "#{celebration_id}_#{current_year}".to_sym
+  $Trainer.birthdays_celebrated = [] unless $Trainer.birthdays_celebrated
+  return if $Trainer.birthdays_celebrated.include?(birthday_id)
+  possible_hats = [HAT_PARTY_1, HAT_PARTY_2, HAT_PARTY_3, HAT_PARTY_4, HAT_PARTY_5, HAT_PARTY_6, HAT_PARTY_7]
+  possible_hats = possible_hats.reject { |hatID| hasHat?(hatID) }
+  unless possible_hats.empty?
+    obtainHat(possible_hats.sample)
+    $Trainer.birthdays_celebrated << birthday_id
+  end
 end
 

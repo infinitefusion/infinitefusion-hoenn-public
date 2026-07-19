@@ -288,9 +288,10 @@ class PokeBattle_Battle
     when :Hail then pbDisplay(_INTL("Hail is falling."))
     when :HarshSun then pbDisplay(_INTL("The sunlight is extremely harsh."))
     when :HeavyRain then pbDisplay(_INTL("It is raining heavily."))
-    when :StrongWinds then pbDisplay(_INTL("The wind is strong."))
+    #when :StrongWinds then pbDisplay(_INTL("The wind is strong."))
     when :ShadowSky then pbDisplay(_INTL("The sky is shadowy."))
     end
+    pbApplyBattleStartWeatherEffects
     # Terrain announcement
     terrain_data = GameData::BattleTerrain.try_get(@field.terrain)
     pbCommonAnimation(terrain_data.animation) if terrain_data
@@ -308,6 +309,20 @@ class PokeBattle_Battle
     pbOnActiveAll
     # Main battle loop
     pbBattleLoop
+  end
+
+  def pbApplyBattleStartWeatherEffects
+    if @field.weather == :StrongWinds
+      wind_side = [0,1].sample
+      echoln @wind_side
+      wind_side = @wind_side.to_i if @wind_side
+      @sides[wind_side].effects[PBEffects::Tailwind] = 4
+      if wind_side == 0
+        pbDisplay(_INTL("The wind is blowing from your side."))
+      else
+        pbDisplay(_INTL("The wind is blowing from the opponent's side."))
+      end
+    end
   end
 
   #=============================================================================
@@ -363,7 +378,7 @@ class PokeBattle_Battle
     $Trainer.cosmetics_money = 0 unless $Trainer.cosmetics_money
     pbPlayer.cosmetics_money += cosmetics_money
     if !@moneyGain && cosmetics_money > 0 # message displayed in pbGainMoney if player wins money
-      pbDisplayPaused(_INTL("You got some {1} for winning!", COSMETIC_CURRENCY_NAME))
+      pbDisplayPaused(_INTL("You got some {1} for winning!", get_cosmetic_currency_name))
     end
     return cosmetics_money
   end
@@ -380,7 +395,7 @@ class PokeBattle_Battle
 
       if moneyGained > 0
         if cosmetics_money > 0
-          pbDisplayPaused(_INTL("You got ${1} and some {2} for winning!", moneyGained.to_s_formatted, COSMETIC_CURRENCY_NAME))
+          pbDisplayPaused(_INTL("You got ${1} and some {2} for winning!", moneyGained.to_s_formatted, get_cosmetic_currency_name))
         else
           pbDisplayPaused(_INTL("You got ${1} for winning!", moneyGained.to_s_formatted))
         end

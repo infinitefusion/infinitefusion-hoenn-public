@@ -308,7 +308,7 @@ def checkInputDirection
 end
 
 def getOnBoat
-  set_player_graphics("boat_briney")
+  set_player_graphics("boat_briney_peeko")
   $PokemonTemp.prevent_ow_battles = true
   $PokemonGlobal.boat = true
 end
@@ -474,7 +474,7 @@ def get_random_trend
 end
 
 def trendSet(option1, option2)
-  choice = pbMessage(_INTL("What do you think? Do you think any of these have any potential?"), [_INTL("Not really..."), "#{option1} is pretty cool!", "I like #{option2}!"])
+  choice = pbMessage(_INTL("What do you think? Do you think any of these have any potential?"), [_INTL("Not really..."), _INTL("{1} is pretty cool!", option1), _INTL("I like {1}!", option2)])
   case choice
   when 0
     return false
